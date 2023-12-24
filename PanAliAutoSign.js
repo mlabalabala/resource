@@ -61,7 +61,8 @@ for (let row = 2; row <= userNum+1; row++) {
 
 
       } catch {
-        var value = "【" + userEmail + "】内的token签到失败" + "\n"
+        var value = "【" + userEmail + "】内的token签到失败" + "\n";
+        sendEmail(isNotify, userEmail, value);
         return
       }
       sleep(1000)
@@ -76,7 +77,8 @@ for (let row = 2; row <= userNum+1; row++) {
           data3 = data3.json()
           var value = value + "本次签到获得" + data3["result"]["name"] + "，" + data3["result"]["description"] + "\n"
         } catch {
-          var value = value + "用户：" + userEmail + "-领取奖励失败" + "\n"
+          var value = value + "用户：" + userEmail + "-领取奖励失败" + "\n";
+          sendEmail(isNotify, userEmail, value);
         }
       } else {
         value = value + "   奖励待领取" + "\n"
@@ -93,8 +95,8 @@ function sendEmail(isNotify,userEmail,value) {
     // 配置发送邮箱
     var zdy_host = "smtp.qq.com"
     var zdy_post = 465
-    var zdy_username = "xxxxxxxxxx@qq.com"
-    var zdy_pasd = "1111111111111"
+    var zdy_username = "xxxxxxxxxxxxxxxxx@qq.com"
+    var zdy_pasd = "11111111111111111"
 
     let mailer = SMTP.login({
       host: zdy_host, // 邮箱 的SMTP服务器的域名
@@ -145,14 +147,12 @@ function getDate(strDate) {
     console.log('格式化日期出现异常：' + e.message);
   }
 }
-
 function formatDateTime(date) {
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
   const day = date.getDate();
   return `${year}-${pad(month)}-${pad(day)} `;
 }
-
 function pad(num) {
   return num.toString().padStart(2, '0');
 }
