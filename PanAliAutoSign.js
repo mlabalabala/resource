@@ -48,10 +48,7 @@ for (let row = 2; row <= userNum+1; row++) {
 
         var currentDate = formatDateTime(myDate);
         var timeDiff = getDate(currentDate).getTime() - getDate(loginDate).getTime();
-<<<<<<< HEAD
         // 20天 × 24小时 × 60分钟 × 60秒 × 1000毫秒 = 20天换算成毫秒
-=======
->>>>>>> 178bf47bb7b2ac45955aad529f91a156be4ad8d9
         if (20 * 24 * 60 * 60 * 1000 < timeDiff) {
           // 每隔20天更新refresh_token
           console.log("每隔20天更新refresh_token！");
