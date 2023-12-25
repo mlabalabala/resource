@@ -40,16 +40,24 @@ def r(m, n):
     return generated_random / 1000
 
 def l_btn_pressed() -> bool:
-    print('Lisener...', end='                                     \r')
-    return True if win32api.GetKeyState(win32con.VK_RBUTTON) < 0 else False
-'''    
-conf = {
+    btn = btn_mapping[conf['btn']]
+    print('Lisener...    KEY_BUTTON: ' + conf['btn'], end='                                     \r')
+    return True if win32api.GetKeyState(btn) < 0 else False
+
+""" conf = {
     't1_min': 140,
-    't1_max': 155,
-    't2_min': 13,
-    't2_max': 25,
+    't1_max': 163,
+    't2_min': 20,
+    't2_max': 40,
+    'btn': 'x1'
+} """
+
+btn_mapping = {
+    'right': win32con.VK_RBUTTON,
+    'middle': win32con.VK_MBUTTON,
+    'x1': win32con.VK_XBUTTON1,
+    'x2': win32con.VK_XBUTTON2
 }
-'''
 conf = read_conf(os.path.join(config_file_path, config_file_name))
 t1_min = conf['t1_min']
 t1_max = conf['t1_max']
