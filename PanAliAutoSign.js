@@ -113,7 +113,7 @@ function sendEmail(isNotify,userEmail,value) {
         mailer.send({
           from: "阿里云盘签到<" + zdy_username + ">", // 发件人
           to: userEmail, // 收件人
-          subject: "阿里云盘签到通知-" + data_time, // 主题
+          subject: data_time + "-阿里云盘签到通知", // 主题
           text: value, // 文本
         })
       } catch (error) {
