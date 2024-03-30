@@ -1,3 +1,6 @@
+icook.tw:2053#优选域名
+cloudflare.cfgo.cc#优选官方线路
+jp.cloudflarest.link#jp.cloudflarest.link
 198.41.219.95:443#CUSTOM
 129.154.198.48:443#KR
 140.238.13.96:443#KR
