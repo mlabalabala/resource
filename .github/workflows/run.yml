@@ -22,14 +22,12 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE
         bash ./scripts/daynodefree.sh
-      
-    - name: Update Results
+    - name: Commit
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_name: "GitHub Action"
+        author_email: "action@github.com"
+        message: "*"
+        add: "*"
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        cd $GITHUB_WORKSPACE
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "*"
-        git push
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
