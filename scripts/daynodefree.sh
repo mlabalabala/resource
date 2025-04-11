@@ -1,6 +1,6 @@
 #!/bin/bash
 
-datetime=$(date +'%Y,%m,%d')
+datetime=$(TZ='Asia/Shanghai' date +'%Y,%m,%d')
 y=$(echo $datetime | awk -F',' '{print $1}')
 m=$(echo $datetime | awk -F',' '{print $2}')
 d=$(echo $datetime | awk -F',' '{print $3}')
