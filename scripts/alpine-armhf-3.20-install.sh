@@ -12,8 +12,8 @@ dlurl='https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/alpine/3.20/armhf/
 lastedbuilddate=$(curl -sk -L ${dlurl} | grep -oP '(?<=title\=")[^"]+(?=">)' | tail -n 1)
 curl -#LOk $dlurl/$lastedbuilddate/$tarball
 echo '正在解压镜像 请耐心等待'
-mkdir -p $HOME/Termux-Linux/$osname/$folder
-proot --link2symlink tar -Jxf $tarball -C $HOME/Termux-Linux/$osname/$folder --exclude="dev"||:
+mkdir -p $HOME/ternux/$osname/$folder
+proot --link2symlink tar -Jxf $tarball -C $HOME/ternux/$osname/$folder --exclude="dev"||:
 echo '解压完成 正在删除已下载的镜像'
 rm -rf $tarball
 echo '正在优化系统设置'
@@ -68,5 +68,5 @@ bash $HOME/ternux/$osname/$shname 'apk update;apk upgrade;apk add vim curl;exit'
 rm -f $PREFIX/bin/alpinestart
 ln -s $HOME/ternux/alpine/start-alpine.sh $PREFIX/bin/alpinestart
 set +x
-echo $osname' 安装成功'
+echo $os' 安装成功'
 echo '通过alpinestart命令启动'
