@@ -1,0 +1,30 @@
+[
+    {
+        "type_name": "短视频",
+        "type_id": "/list/base-shipin-dsp-1.js"
+    },
+    {
+        "type_name": "美女主播  ",
+        "type_id": "/list/base-shipin-mnzb-1.js"
+    },
+    {
+        "type_name": "国产精品",
+        "type_id": "/list/base-shipin-gcjp-1.js"
+    },
+    {
+        "type_name": "中文字幕",
+        "type_id": "/list/base-shipin-zwzm-1.js"
+    },
+    {
+        "type_name": "亚洲无码",
+        "type_id": "/list/base-shipin-yzwm-1.js"
+    },
+    {
+        "type_name": "欧美精品",
+        "type_id": "/list/base-shipin-omjp-1.js"
+    },
+    {
+        "type_name": "精彩动漫",
+        "type_id": "/list/base-shipin-crdm-1.js"
+    }
+]
