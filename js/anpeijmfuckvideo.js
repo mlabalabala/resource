@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Play Video
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Automatically resume video playback when it is paused, using MutationObserver to monitor DOM changes
 // @author       Your Name
 // @match        http://124.164.238.151:28808/*
