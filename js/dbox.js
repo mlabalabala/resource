@@ -45,7 +45,6 @@ document.addEventListener('mousemove', function(e) {
 document.addEventListener('mouseup', function() {
     isDragging = false;
 });
-document.body.appendChild(debugBox);
 window.debugLog = function(msg) {
     const line = document.createElement('div');
     line.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
