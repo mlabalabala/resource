@@ -45,9 +45,10 @@ document.addEventListener('mousemove', function(e) {
 document.addEventListener('mouseup', function() {
     isDragging = false;
 });
-window.debugLog = function(msg) {
+window.debugLog = function(...args) {
     const line = document.createElement('div');
-    line.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+    line.textContent = `[${new Date().toLocaleTimeString()}] ` + args.join(' ');
     debugBox.appendChild(line);
     debugBox.scrollTop = debugBox.scrollHeight; // 滚到底部
 };
+
