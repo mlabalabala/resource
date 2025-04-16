@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "mashiyuan.love",
+                "clash.razord.top",
+                "yacd.metacubex.one",
+                "yacd.haishan.me",
+                "d.metacubex.one",
+                "translate.volcengine.com",
+                "m3m.1vkx.cn",
+                "cdn.jsdelivr.net"
+            ],
+            "domain_keyword": [
+                "regex101"
+            ],
+            "domain_regex": [
+                "^.*\\.bunny.*\\.eu\\.org"
+            ],
+            "domain_suffix": [
+                "sunshj.eu.org",
+                "bunnyabc.eu.org",
+                "bunnylblbblbl.eu.org"
+            ]
+        }
+    ]
+}
