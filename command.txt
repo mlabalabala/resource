@@ -28,8 +28,8 @@ go build -ldflags="-w -s" -tags="with_clash_api with_utls" ./cmd/sing-box
 ```bat
 D:\VSCodium-win32-x64-1.98.2.25072\VSCodium.exe --user-data-dir "D:\VSCodium-win32-x64-1.98.2.25072\udata" --extensions-dir "D:\VSCodium-win32-x64-1.98.2.25072\exts"
 
-mklink /d "C:\Users\10\.vscode\extensions" "D:\VSCodium-win32-x64-1.98.2.25072\exts\"
-mklink /d "C:\Users\10\AppData\Roaming\VSCodium" "D:\VSCodium-win32-x64-1.98.2.25072\udata"
+mklink /d "%userprofile%\\.vscode-oss\\extensions" "D:\\VSCodium-win32-x64-1.98.2.25072\\exts\\"
+mklink /d "%userprofile%\\AppData\\Roaming\\VSCodium" "D:\\VSCodium-win32-x64-1.98.2.25072\\udata"
 ```
 
 # bat admin
@@ -40,3 +40,4 @@ REM admin
 @cd /d "%~dp0"
 ...
 ```
+
