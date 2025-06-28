@@ -3,6 +3,11 @@
 bcdedit /set hypervisorlaunchtype off
 ```
 
+# 禁用hypervisor，与dbvm相关，关闭后安卓子系统会导致不可用
+```bat
+bcdedit /set hypervisorlaunchtype off
+```
+
 # 禁用win签名认证
 ```bat
 bcdedit /set nointegritychecks on
