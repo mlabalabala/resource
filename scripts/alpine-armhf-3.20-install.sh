@@ -64,7 +64,7 @@ echo 修改阿里DNS
 echo -e 'nameserver 223.5.5.5\nnameserver 223.6.6.6\nnameserver 2400:3200::1\nnameserver 2400:3200:baba::1' >> $HOME/ternux/$osname/$folder/etc/resolv.conf 
 echo 更新软件源
 #apk add --update --no-cache curl jq py3-configobj py3-pip py3-setuptools python3 python3-dev
-bash $HOME/ternux/$osname/$shname 'apk update;apk upgrade;apk add vim curl;exit'
+bash $HOME/ternux/$osname/$shname 'apk update;apk upgrade;apk add vim curl nodejs;exit'
 rm -f $PREFIX/bin/alpinestart
 ln -s $HOME/ternux/alpine/start-alpine.sh $PREFIX/bin/alpinestart
 set +x
