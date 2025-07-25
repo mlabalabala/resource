@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto ANSWER
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  fuck answers!
 // @author       Your mother
 // @match        https://study.jamg.cn/myExamManage/gotoOfficialExamTest.action
