@@ -1,3 +1,8 @@
+# 复制以下命令到Powershell窗口, 回车，（2024年9月1日更新，最新可用）
+```powershell
+irm https://get.activated.win | iex
+```
+
 # 禁用hypervisor，与dbvm相关，关闭后安卓子系统会导致不可用
 ```bat
 bcdedit /set hypervisorlaunchtype off
@@ -45,4 +50,5 @@ REM admin
 @cd /d "%~dp0"
 ...
 ```
+
 
