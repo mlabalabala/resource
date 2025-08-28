@@ -1,3 +1,5 @@
+---
+
 # 复制以下命令到Powershell窗口, 回车，（2024年9月1日更新，最新可用）
 ```powershell
 irm https://get.activated.win | iex
