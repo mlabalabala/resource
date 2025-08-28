@@ -42,6 +42,7 @@ mklink /d "%userprofile%\\.vscode-oss\\extensions" "D:\\VSCodium-win32-x64-1.98.
 mklink /d "%userprofile%\\AppData\\Roaming\\VSCodium" "D:\\VSCodium-win32-x64-1.98.2.25072\\udata"
 ```
 
+
 # bat admin
 ```bat
 @echo off
