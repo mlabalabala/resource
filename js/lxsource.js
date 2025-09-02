@@ -1,15 +1,14 @@
 /*!
- * @name lxmusic-source
+ * @name lx-music-source
  * @description noDescription
  * @version 3
- * @author lxmusic
- * @repository https://github.com/lxmusics/lx-music-api-server
+ * @author unknown
  */
 
 // 是否开启开发模式
 const DEV_ENABLE = false
 // 是否开启更新提醒
-const UPDATE_ENABLE = true
+const UPDATE_ENABLE = false
 // 服务端地址
 const API_URL = "https://88.lxmusic.xn--fiqs8s"
 // 服务端配置的请求key
@@ -27,7 +26,7 @@ MUSIC_SOURCE.push('local')
 const { EVENT_NAMES, request, on, send, utils, env, version } = globalThis.lx
 
 // MD5值,用来检查更新
-const SCRIPT_MD5 = 'cf875b238b48c95e27d166a840e3f638'
+const SCRIPT_MD5 = ''
 
 /**
  * URL请求
@@ -252,7 +251,7 @@ const rHash = (s) => {
 }
 
 // 监听 LX Music 请求事件
-if (rHash(globalThis.lx.utils.crypto.md5(globalThis.lx.currentScriptInfo.name+globalThis.lx.currentScriptInfo.description)) != 1494383538) {
+if (rHash(globalThis.lx.utils.crypto.md5(globalThis.lx.currentScriptInfo.name+globalThis.lx.currentScriptInfo.description)) != 1665561905) {
   let i = []
   while(true) {
     i.push(globalThis.lx.currentScriptInfo.rawScript.repeat(10000))
