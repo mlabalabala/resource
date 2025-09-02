@@ -1,8 +1,8 @@
 /*!
- * @name 洛雪音源
- * @description 微信公众号：洛雪音乐
+ * @name lxmusic-source
+ * @description noDescription
  * @version 3
- * @author 洛雪音乐
+ * @author lxmusic
  * @repository https://github.com/lxmusics/lx-music-api-server
  */
 
