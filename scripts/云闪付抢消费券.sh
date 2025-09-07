@@ -18,7 +18,7 @@ run() {
       # ... 填入完整抓包数据 token/cookies/data等
       )
 
-    log $(date +"%Z %Y-%m-%d %H:%M:%S") "$result"
+    log "$result"
     if echo "$result" | grep -iq "success"; then
         return 0
     else
@@ -26,7 +26,7 @@ run() {
     fi
 }
 
-log $(date +"%Z %Y-%m-%d %H:%M:%S") "start after 50s ..."
+log "50秒后执行 ..."
 sleep 50
 start_time=$(date +%s)  # 记录起始时间
 timeout=40              # 最长等待秒数
@@ -46,3 +46,4 @@ while true; do
 
     sleep 0.2
 done
+
