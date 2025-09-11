@@ -7,10 +7,12 @@ osname='alpine'
 folder='fs'
 shname='start-'$osname'.sh'
 tarball='rootfs.tar.xz'
+if [[ ! -f "$HOME/$tarball" ]]; then
 echo "下载 '$osname' 镜像文件 '$tarball'，请耐心等待"
 dlurl='https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/alpine/3.20/armhf/default'
 lastedbuilddate=$(curl -sk -L ${dlurl} | grep -oP '(?<=title\=")[^"]+(?=">)' | tail -n 1)
 curl -#LOk $dlurl/$lastedbuilddate/$tarball
+fi
 echo '正在解压镜像 请耐心等待'
 mkdir -p $HOME/ternux/$osname/$folder
 proot --link2symlink tar -Jxf $tarball -C $HOME/ternux/$osname/$folder --exclude="dev"||:
