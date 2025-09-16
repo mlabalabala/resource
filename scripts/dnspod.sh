@@ -98,9 +98,8 @@ arDdnsUpdate() {
     local recordIp
 
     local lastRecordIp
-    if [ "$4" = "domain" ]; then
-        arLog "Updating Record value"
-        recordRs=$(arDdnsApi "Record.Modify" "domain=$mainDomain&sub_domain=$subDomain&record_id=$recordId&record_type=$recordType&value=$recordSt&record_line=%e9%bb%98%e8%ae%a4")
+    if [ "$4" = "CNAME" ]; then
+        recordRs=$(arDdnsApi "Record.Modify" "domain=$2&sub_domain=$1&record_id=$3&record_type=$4&value=$5&record_line=%e9%bb%98%e8%ae%a4")
 
         # parse result
         recordCd=$(echo $recordRs | sed 's/.*{"code":"\([0-9]*\)".*/\1/')
@@ -223,7 +222,7 @@ arDdnsCheck() {
 
     errCode=$?
     if [ $errCode -eq 0 ]; then
-        arLog "> Host Ip: $hostIp"
+        arLog "> Host Ip/Domain: $hostIp"
         arLog "> Record Type: $recordType"
     elif [ $errCode -eq 2 ]; then
         arLog "> Host Ip: Auto"
@@ -274,13 +273,10 @@ ipv6Check() {
     fi
 }
 
-getIpv6Addr() {
-    ifconfig pppoe-wan | awk '/inet6.*64/ {print $3}' | cut -d'/' -f1
-}
-
 arIsCreateRecord=1
 arErrCodeUnchanged=1
 arLastRecordFile=/tmp/ardnspod_last_record
+
 #arToken=123456,1111111111111111
 #arDdnsCheck subdomain domain 6/4/domain addr
 
