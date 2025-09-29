@@ -137,4 +137,3 @@ oprateRecord() {
 #oprateRecord domain recordType vaule proxy(0/1 def:1)
 #delete by domain name
 #deleteRecord domain
-
