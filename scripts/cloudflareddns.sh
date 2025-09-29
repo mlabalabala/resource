@@ -85,7 +85,7 @@ deleteRecord() {
     echo "Delete record failed: $recordName donest exist!"
   fi
 }
-updateRecord() {
+oprateRecord() {
   local recordName=$1
   local type=$2
   local val=$3
@@ -133,7 +133,6 @@ updateRecord() {
 #export apiKey="111111111111111111111111111111"
 #export zoneId="1111111111111111111111111111"
 #update dns record/create if not exist
-#updateRecord domain recordType vaule proxy(0/1 def:1)
+#oprateRecord domain recordType vaule proxy(0/1 def:1)
 #delete by domain name
 #deleteRecord domain
-
