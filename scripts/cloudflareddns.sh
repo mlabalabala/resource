@@ -1,6 +1,5 @@
 #!/bin/sh
 checkConfValid() {
-  local isValid=true
   if [ -z "$zoneId" ]; then
     echo "zoneId invalid"
     return 1
@@ -137,3 +136,4 @@ updateRecord() {
 #updateRecord domain recordType vaule proxy(0/1 def:1)
 #delete by domain name
 #deleteRecord domain
+
