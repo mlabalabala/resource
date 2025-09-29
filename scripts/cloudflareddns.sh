@@ -131,8 +131,8 @@ updateRecord() {
     echo "update failed"
   fi
 }
-export apiKey="111111111111111111111111111111"
-export zoneId="1111111111111111111111111111"
+#export apiKey="111111111111111111111111111111"
+#export zoneId="1111111111111111111111111111"
 #update dns record/create if not exist
 #updateRecord domain recordType vaule proxy(0/1 def:1)
 #delete by domain name
