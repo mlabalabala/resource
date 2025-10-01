@@ -1,5 +1,5 @@
 
-
+DOMAIN-SUFFIX,linux.do
 DOMAIN-KEYWORD,bunny
 DOMAIN-KEYWORD,rabshi
 
