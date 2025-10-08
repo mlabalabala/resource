@@ -20,7 +20,7 @@ checkConfValid() {
   fi
 }
 listRecord() {
-  checkConfValid
+  if ! checkConfValid; then return 1; fi
   local recordName=$1
   local result=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records?name=$recordName" \
     -H "Content-Type:application/json" \
@@ -38,7 +38,7 @@ listRecord() {
   echo "$resourceId" "$currentValue" "$proxiedStat"
 }
 updateRecord() {
-  checkConfValid
+  if ! checkConfValid; then return 1; fi
   local recordName=$1
   local resourceId=$2
   local type=$3
@@ -53,7 +53,7 @@ updateRecord() {
   return $?
 }
 createRecord() {
-  checkConfValid
+  if ! checkConfValid; then return 1; fi
   local recordName=$1
   local type=$2
   local value=$3
@@ -76,7 +76,7 @@ deleteRecord() {
   local domain=$2
   local recordName=$subDomain.$domain
   zoneId=$(echo $zoneResSt| sed -e "s/ //g" |grep -o "id\":\"[0-9a-z]*\",\"name\":\"$domain\",\"status\""|grep -o "id\":\"[0-9a-z]*\""| awk -F : '{print $2}'|grep -o "[a-z0-9]*")
-  checkConfValid
+  if ! checkConfValid; then return 1; fi
 
   currentStat=$(listRecord "$recordName")
   if [ $? -eq 1 ]; then
@@ -111,11 +111,13 @@ oprateRecord() {
   local val=$4
   local recordName=$subDomain.$domain
   local isProxy=true
+  
+  zoneId=$(echo $zoneResSt| sed -e "s/ //g" |grep -o "id\":\"[0-9a-z]*\",\"name\":\"$domain\",\"status\""|grep -o "id\":\"[0-9a-z]*\""| awk -F : '{print $2}'|grep -o "[a-z0-9]*")
+  if ! checkConfValid; then return 1; fi
+
   [ "0" = "$5" ] && isProxy=false
   echo "open little yellow cloud: " $isProxy
 
-  zoneId=$(echo $zoneResSt| sed -e "s/ //g" |grep -o "id\":\"[0-9a-z]*\",\"name\":\"$domain\",\"status\""|grep -o "id\":\"[0-9a-z]*\""| awk -F : '{print $2}'|grep -o "[a-z0-9]*")
-  checkConfValid
 
   currentStat=$(listRecord "$recordName")
   if [ $? -eq 1 ]; then
