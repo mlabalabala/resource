@@ -3,11 +3,13 @@ if [ -z "$apiKey" ]; then
   echo "apiKey invalid"
   return 1
 fi
+if [ -z "$zoneId" ]; then
 cacheDit=$HOME
 if [ ! -f "$cacheDit/.cfzonecache" ]; then
   curl -L -s -X GET "https://api.cloudflare.com/client/v4/zones" -H "Content-Type: application/json" -H "Authorization: Bearer $apiKey" | base64 | tr -d '\n' > $cacheDit/.cfzonecache
 fi
 zoneResSt=$(cat $cacheDit/.cfzonecache | base64 -d)
+fi
 
 checkConfValid() {
   if [ -z "$zoneId" ]; then
@@ -47,7 +49,7 @@ updateRecord() {
   local result=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records/$resourceId" \
     -H "Authorization: Bearer $apiKey" \
     -H "Content-Type: application/json" \
-    --data "{\"type\":\"$type\",\"name\":\"$recordName\",\"content\":\"$value\",\"ttl\":600,\"proxied\":$isProxy}")
+    --data "{\"type\":\"$type\",\"name\":\"$recordName\",\"content\":\"$value\",\"ttl\":1,\"proxied\":$isProxy}")
   local successStat=$(echo "$result" | awk -F'"success":' '{if(NF>1){split($2,a,","); gsub(/^[ \t]+|[ \t]+$/,"",a[1]); print a[1]; exit}}')
   [ "$successStat" = "true" ]
   return $?
@@ -61,7 +63,7 @@ createRecord() {
   local result=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records" \
     -H "Authorization: Bearer $apiKey" \
     -H "Content-Type: application/json" \
-    --data "{\"type\":\"$type\",\"name\":\"$recordName\",\"content\":\"$value\",\"ttl\":600,\"proxied\":$isProxy}")
+    --data "{\"type\":\"$type\",\"name\":\"$recordName\",\"content\":\"$value\",\"ttl\":1,\"proxied\":$isProxy}")
 
   local successStat=$(echo "$result" | awk -F'"success":' '{if(NF>1){split($2,a,","); gsub(/^[ \t]+|[ \t]+$/,"",a[1]); print a[1]; exit}}')
   if [ "$successStat" != "true" ]; then
@@ -75,7 +77,7 @@ deleteRecord() {
   local subDomain=$1
   local domain=$2
   local recordName=$subDomain.$domain
-  zoneId=$(echo $zoneResSt| sed -e "s/ //g" |grep -o "id\":\"[0-9a-z]*\",\"name\":\"$domain\",\"status\""|grep -o "id\":\"[0-9a-z]*\""| awk -F : '{print $2}'|grep -o "[a-z0-9]*")
+  zoneId=${zoneId:-$(echo $zoneResSt| sed -e "s/ //g" |grep -o "id\":\"[0-9a-z]*\",\"name\":\"$domain\",\"status\""|grep -o "id\":\"[0-9a-z]*\""| awk -F : '{print $2}'|grep -o "[a-z0-9]*")}
   if ! checkConfValid; then return 1; fi
 
   currentStat=$(listRecord "$recordName")
@@ -110,12 +112,12 @@ oprateRecord() {
   local type=$3
   local val=$4
   local recordName=$subDomain.$domain
-  local isProxy=true
+  local isProxy=false
+  [ "1" = "$5" ] && isProxy=true
   
-  zoneId=$(echo $zoneResSt| sed -e "s/ //g" |grep -o "id\":\"[0-9a-z]*\",\"name\":\"$domain\",\"status\""|grep -o "id\":\"[0-9a-z]*\""| awk -F : '{print $2}'|grep -o "[a-z0-9]*")
+  zoneId=${zoneId:-$(echo $zoneResSt| sed -e "s/ //g" |grep -o "id\":\"[0-9a-z]*\",\"name\":\"$domain\",\"status\""|grep -o "id\":\"[0-9a-z]*\""| awk -F : '{print $2}'|grep -o "[a-z0-9]*")}
   if ! checkConfValid; then return 1; fi
 
-  [ "0" = "$5" ] && isProxy=false
   echo "open little yellow cloud: " $isProxy
 
 
