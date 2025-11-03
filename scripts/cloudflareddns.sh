@@ -1,18 +1,34 @@
-#!/bin/sh
+#!/bin/bash
+# Cloudflare DDNS API 脚本（无表情版）
+# 支持：自动获取 zone_id，查询、更新、创建、删除 DNS 记录（含根域）
 
+# ========== 用户配置 ==========
+apiKey="${apiKey:-}"  # 若已在环境变量中设置可省略
+cacheDir="${HOME}/.cache"
+cacheFile="${cacheDir}/cf_zone_cache.json"
+mkdir -p "$cacheDir"
+
+# ========== 通用函数 ==========
 getZoneId() {
-local cacheDit=$HOME
-local domain=$1
-if [ ! -f "$cacheDit/.cfzonecache" ]; then
-  curl -L -s -X GET "https://api.cloudflare.com/client/v4/zones" -H "Content-Type: application/json" -H "Authorization: Bearer $apiKey" | base64 | tr -d '\n' > $cacheDit/.cfzonecache
-fi
-local zoneResSt=$(cat $cacheDit/.cfzonecache | base64 -d)
-local zoneIdSt=$(echo $zoneResSt| sed -e "s/ //g" |grep -o "id\":\"[0-9a-z]*\",\"name\":\"$domain\",\"status\""|grep -o "id\":\"[0-9a-z]*\""| awk -F : '{print $2}'|grep -o "[a-z0-9]*")
-if [ -z "$zoneIdSt" ]; then
-  echo get zone id failed!
-  exit 1
-fi
-echo $zoneIdSt
+  local domain="$1"
+  [ -z "$apiKey" ] && { echo "apiKey invalid"; return 1; }
+
+  # 从缓存读取 zone_id，减少 API 调用
+  if [ ! -f "$cacheFile" ]; then
+    curl -s -X GET "https://api.cloudflare.com/client/v4/zones" \
+      -H "Authorization: Bearer $apiKey" \
+      -H "Content-Type: application/json" >"$cacheFile"
+  fi
+
+  local zoneId
+  zoneId=$(jq -r --arg domain "$domain" '.result[] | select(.name==$domain) | .id' "$cacheFile")
+
+  if [ -z "$zoneId" ]; then
+    echo "get zone id failed for $domain"
+    return 1
+  fi
+
+  echo "$zoneId"
 }
 
 checkConfValid() {
@@ -24,159 +40,103 @@ checkConfValid() {
     echo "apiKey invalid"
     return 1
   fi
+  return 0
 }
+
+
+# ========== 查询记录 ==========
 listRecord() {
-  if ! checkConfValid; then return 1; fi
-  local recordName=$1
-  local type=${2:-A}
-  local result=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records?name=$recordName&type=$type" \
-    -H "Content-Type:application/json" \
-    -H "Authorization: Bearer $apiKey")
+  checkConfValid || return 1
+  local recordName="$1"
+  local type="${2:-A}"
 
-  local resourceId=$(echo "$result" | awk -F'"id":"' '{if(NF>1){split($2,a,"\""); print a[1]; exit}}')
-  local currentValue=$(echo "$result" | awk -F'"content":"' '{if(NF>1){split($2,a,"\""); print a[1]; exit}}')
-  local successStat=$(echo "$result" | awk -F'"success":' '{if(NF>1){split($2,a,","); gsub(/^[ \t]+|[ \t]+$/,"",a[1]); print a[1]; exit}}')
-  local proxiedStat=$(echo "$result" | awk -F'"proxied":' '{if(NF>1){split($2,a,","); gsub(/^[ \t]+|[ \t]+$/,"",a[1]); print a[1]; exit}}')
+  local result
+  result=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records?name=$recordName&type=$type" \
+    -H "Authorization: Bearer $apiKey" -H "Content-Type: application/json")
 
-  if [ -n "$resourceId" ] && [ "$successStat" != "true" ]; then
-    echo "$result" | awk -F'"message":"' '{if(NF>1){split($2,a,"\""); print a[1]; exit}}'
-    return 1
-  elif [ -z "$resourceId" ] || [ -z "$currentValue" ] || [ -z "$proxiedStat" ];then
-    echo "get resourceId failed"
-    return 1
-  fi 
-  echo "$resourceId" "$currentValue" "$proxiedStat"
+  local success
+  success=$(jq -r '.success' <<<"$result")
+  [ "$success" != "true" ] && { jq -r '.errors[0].message' <<<"$result"; return 1; }
+
+  local id content proxied
+  id=$(jq -r '.result[0].id' <<<"$result")
+  content=$(jq -r '.result[0].content' <<<"$result")
+  proxied=$(jq -r '.result[0].proxied' <<<"$result")
+
+  [ "$id" = "null" ] && { echo "record not found"; return 1; }
+  echo "$id" "$content" "$proxied"
 }
-updateRecord() {
-  if ! checkConfValid; then return 1; fi
-  local recordName=$1
-  local resourceId=$2
-  local type=$3
-  local value=$4
-  local isProxy=$5
-  local result=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records/$resourceId" \
-    -H "Authorization: Bearer $apiKey" \
-    -H "Content-Type: application/json" \
-    --data "{\"type\":\"$type\",\"name\":\"$recordName\",\"content\":\"$value\",\"ttl\":1,\"proxied\":$isProxy}")
-  local successStat=$(echo "$result" | awk -F'"success":' '{if(NF>1){split($2,a,","); gsub(/^[ \t]+|[ \t]+$/,"",a[1]); print a[1]; exit}}')
-  [ "$successStat" = "true" ]
-  return $?
-}
+
+# ========== 创建/更新/删除记录 ==========
 createRecord() {
-  if ! checkConfValid; then return 1; fi
-  local recordName=$1
-  local type=$2
-  local value=$3
-  local isProxy=$4
-  local result=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records" \
-    -H "Authorization: Bearer $apiKey" \
-    -H "Content-Type: application/json" \
-    --data "{\"type\":\"$type\",\"name\":\"$recordName\",\"content\":\"$value\",\"ttl\":1,\"proxied\":$isProxy}")
+  checkConfValid || return 1
+  local recordName="$1" type="$2" value="$3" isProxy="$4"
+  local body
+  body=$(jq -n --arg type "$type" --arg name "$recordName" --arg content "$value" --argjson proxied "$isProxy" \
+    '{type:$type,name:$name,content:$content,ttl:120,proxied:$proxied}')
 
-  local successStat=$(echo "$result" | awk -F'"success":' '{if(NF>1){split($2,a,","); gsub(/^[ \t]+|[ \t]+$/,"",a[1]); print a[1]; exit}}')
-  if [ "$successStat" != "true" ]; then
-    echo "$result" | awk -F'"message":"' '{if(NF>1){split($2,a,"\""); print a[1]; exit}}'
-    return 1
-  fi
-  local recordId=$(echo "$result" | awk -F'"id":"' '{if(NF>1){split($2,a,"\""); print a[1]; exit}}')
-  echo "$recordId"
+  local res
+  res=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records" \
+    -H "Authorization: Bearer $apiKey" -H "Content-Type: application/json" --data "$body")
+
+  jq -e '.success' <<<"$res" >/dev/null || { jq -r '.errors[0].message' <<<"$res"; return 1; }
+  jq -r '.result.id' <<<"$res"
 }
+
+updateRecord() {
+  checkConfValid || return 1
+  local recordName="$1" recordId="$2" type="$3" value="$4" isProxy="$5"
+  local body
+  body=$(jq -n --arg type "$type" --arg name "$recordName" --arg content "$value" --argjson proxied "$isProxy" \
+    '{type:$type,name:$name,content:$content,ttl:120,proxied:$proxied}')
+
+  local res
+  res=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records/$recordId" \
+    -H "Authorization: Bearer $apiKey" -H "Content-Type: application/json" --data "$body")
+
+  jq -e '.success' <<<"$res" >/dev/null && echo "update success" || { echo "update failed"; jq -r '.errors[0].message' <<<"$res"; }
+}
+
 deleteRecord() {
-  local subDomain=$1
-  local domain=$2
-  local type=${3:-A}
-  local recordName=$subDomain.$domain
-  [ "@" = "$subDomain" ] && recordName=$domain
-  zoneId=${zoneId:-$(getZoneId $domain)}
-  if ! checkConfValid; then return 1; fi
+  local recordName="$1" type="${2:-A}"
+  checkConfValid || return 1
 
-  currentStat=$(listRecord "$recordName" $type)
-  if [ $? -eq 1 ]; then
-    echo "listRecord failed"
-    return 1
-  fi
-  resourceId=$(echo "$currentStat" | awk '{print $1}')
-  if [ -n "$resourceId" ]; then
-    local result=$(curl -s -X DELETE "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records/$resourceId" \
-        -H "Authorization: Bearer $apiKey" \
-        -H "Content-Type: application/json")
+  local info id
+  info=$(listRecord "$recordName" "$type") || return 1
+  id=$(awk '{print $1}' <<<"$info")
 
-    local successStat=$(echo "$result" | awk -F'"success":' '{if(NF>1){split($2,a,","); gsub(/^[ \t]+|[ \t]+$/,"",a[1]); print a[1]; exit}}')
+  local res
+  res=$(curl -s -X DELETE "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records/$id" \
+    -H "Authorization: Bearer $apiKey" -H "Content-Type: application/json")
 
-    if [ "$successStat" = "true" ]; then
-        echo "Delete record success: $resourceId"
-        return 0
-    else
-        local message=$(echo "$result" | awk -F'"message":"' '{if(NF>1){split($2,a,"\""); print a[1]; exit}}')
-        echo "Delete record failed: $message"
-        return 1
-    fi
-  else
-    echo "Delete record failed: $recordName donest exist!"
-    return 1
-  fi
+  jq -e '.success' <<<"$res" >/dev/null && echo "delete success: $recordName" || jq -r '.errors[0].message' <<<"$res"
 }
-oprateRecord() {
-  local subDomain=$1
-  local domain=$2
-  local type=$3
-  local val=$4
-  local recordName=$subDomain.$domain
-  [ "@" = "$subDomain" ] && recordName=$domain
+
+# ========== 智能更新接口 ==========
+operateRecord() {
+  local subDomain="$1" domain="$2" type="${3:-A}" value="$4" proxyFlag="${5:-0}"
+  local recordName="$subDomain.$domain"
+  [ "$subDomain" = "@" ] && recordName="$domain"
   local isProxy=false
-  [ "1" = "$5" ] && isProxy=true
-  
-  zoneId=${zoneId:-$(getZoneId $domain)}
-  if ! checkConfValid; then return 1; fi
+  [ "$proxyFlag" = "1" ] && isProxy=true
 
-  echo "open little yellow cloud: " $isProxy
+  zoneId="${zoneId:-$(getZoneId "$domain")}" || return 1
+  checkConfValid || return 1
 
+  echo "Updating record: $recordName ($type)"
+  local info id currentValue proxied
+  if info=$(listRecord "$recordName" "$type"); then
+    id=$(awk '{print $1}' <<<"$info")
+    currentValue=$(awk '{print $2}' <<<"$info")
+    proxied=$(awk '{print $3}' <<<"$info")
 
-  currentStat=$(listRecord "$recordName" $type)
-  if [ $? -eq 1 ]; then
-    echo "listRecord failed"
-    return 1
-  fi
-  resourceId=$(echo "$currentStat" | awk '{print $1}')
-  currentValue=$(echo "$currentStat" | awk '{print $2}')
-  proxiedStat=$(echo "$currentStat" | awk '{print $3}')
-  #echo "resourceId: $resourceId"
-  #echo "currentValue: $currentValue"
-  #echo "proxiedStat: $proxiedStat"
-
-  if [ -z "$resourceId" ]; then
-    echo "record not exist, will create first"
-    createdRecordResourceId=$(createRecord $recordName $type $val $isProxy)
-    if [ $? -eq 0 ] && [ -n "$createdRecordResourceId" ]; then
-      echo "Create record success, id: $createdRecordResourceId"
+    if [ "$currentValue" = "$value" ] && [ "$proxied" = "$isProxy" ]; then
+      echo "Record already up to date ($currentValue)"
       return 0
-    else
-      echo "Create record failed. Exit"
-      return 1
     fi
-  fi
-
-  echo "$proxiedStat" "$isProxy"
-  if [ "$currentValue" = "$val" ] && [ "$proxiedStat" = "$isProxy" ]; then
-    echo "DNS value already same as external address, will not update, exit."
-    return 0
-  fi
-
-  updateRecord $recordName $resourceId $type $val $isProxy
-  if [ $? -eq 0 ]; then
-    echo "update success"
+    updateRecord "$recordName" "$id" "$type" "$value" "$isProxy"
   else
-    echo "update failed"
+    echo "Record not found, creating..."
+    createRecord "$recordName" "$type" "$value" "$isProxy" && echo "Create success: $recordName"
   fi
 }
-
-#if [ -z "$apiKey" ]; then
-#  echo "apiKey invalid"
-#  return 1
-#fi
-
-#export apiKey="111111111111111111111111111111"
-#update dns record/create if not exist
-#oprateRecord subDomainName domainHost recordType vaule proxy(0/1 def:1)
-#delete by domain name
-#deleteRecord subDomainName domainHost
