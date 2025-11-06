@@ -1,5 +1,4 @@
 #!/bin/bash
-# Cloudflare DDNS API 脚本（无表情版）
 # 支持：自动获取 zone_id，查询、更新、创建、删除 DNS 记录（含根域）
 
 # ========== 用户配置 ==========
@@ -73,7 +72,7 @@ createRecord() {
   local recordName="$1" type="$2" value="$3" isProxy="$4"
   local body
   body=$(jq -n --arg type "$type" --arg name "$recordName" --arg content "$value" --argjson proxied "$isProxy" \
-    '{type:$type,name:$name,content:$content,ttl:120,proxied:$proxied}')
+    '{type:$type,name:$name,content:$content,ttl:0,proxied:$proxied}')
 
   local res
   res=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records" \
@@ -88,7 +87,7 @@ updateRecord() {
   local recordName="$1" recordId="$2" type="$3" value="$4" isProxy="$5"
   local body
   body=$(jq -n --arg type "$type" --arg name "$recordName" --arg content "$value" --argjson proxied "$isProxy" \
-    '{type:$type,name:$name,content:$content,ttl:120,proxied:$proxied}')
+    '{type:$type,name:$name,content:$content,ttl:0,proxied:$proxied}')
 
   local res
   res=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$zoneId/dns_records/$recordId" \
