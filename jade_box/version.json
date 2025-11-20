@@ -1,6 +1,6 @@
 {
-    "desc": "同步更新 q版 704cd2658fbcaf38551228cb90bd9f766a0c9e72",
-    "versionCode": 20,
+    "desc": "修复始终无法获取更新\n同步更新 q版 704cd2658fbcaf38551228cb90bd9f766a0c9e72",
+    "versionCode": 21,
     "versionName": "0.0.0",
     "downloadUrl": "https://raw.bunnyxyz.eu.org/raw.githubusercontent.com/mlabalabala/resource/main/jade_box/app.apk",
     "forceUpgrade": false
