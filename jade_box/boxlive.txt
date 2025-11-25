@@ -1,4 +1,4 @@
---------------------------xBnHtjSoL84E70179tSfD9
+--------------------------T2vU4BtAn3zGkFXNOjny9C
 Content-Disposition: form-data; name="file"; filename="boxlive.txt"
 Content-Type: text/plain
 
@@ -4534,4 +4534,4 @@ BSフジ BS Fuji,https://tzh911.qzz.io/play-smt.php?id=bsfuji_japan
 CNA Japan,https://tzh911.qzz.io/play-smt.php?id=cna_japan
 BS-TBS,https://tzh911.qzz.io/play-smt.php?id=bstbs_japan
 NHK Oaska,https://tzh911.qzz.io/play-smt.php?id=nhkosaka_japan
---------------------------xBnHtjSoL84E70179tSfD9--
+--------------------------T2vU4BtAn3zGkFXNOjny9C--
