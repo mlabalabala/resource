@@ -1,7 +1,8 @@
 {
-    "desc": "修复始终无法获取更新\n同步更新 q版 704cd2658fbcaf38551228cb90bd9f766a0c9e72",
-    "versionCode": 21,
+    "desc": "1.修改历史记录界面bug\n2.视频封面显示源名\n3.首页是历史记录时自动聚焦第一个视频",
+    "versionCode": 22,
     "versionName": "0.0.0",
     "downloadUrl": "https://raw.bunnyxyz.eu.org/raw.githubusercontent.com/mlabalabala/resource/main/jade_box/app.apk",
     "forceUpgrade": false
 }
+
