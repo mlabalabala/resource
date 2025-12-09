@@ -1,31 +1,14 @@
 猫TV影视,#genre#
-抖舞陪看,http://rihou.cc:555/tv/[tv]抖舞陪看
-白嫖软件,http://rihou.cc:555/tv/[tv]白嫖软件
-免费观看,http://rihou.cc:555/tv/[tv]免费观看
-大街网源,http://rihou.cc:555/tv/[tv]大街网源
-互相搬助,http://rihou.cc:555/tv/[tv]互相搬助
-能看就行,http://rihou.cc:555/tv/[tv]能看就行
-分享更新,http://rihou.cc:555/tv/[tv]分享更新
-爱扒随便,http://rihou.cc:555/tv/[tv]爱扒随便
-不必纠结,http://rihou.cc:555/tv/[tv]不必纠结
-CBA赛评,#genre#
-12-08CBA杯分组赛🏀📡,http://81.70.10.196:35455/douyu/11531165
-19:30浙江方兴🆚北京北汽,https://suo.yt/R6oJbv0
-国🔊现场述评,https://suo.yt/R6oJbv0
-原🔊原声现场,https://suo.yt/R6oJbv0
-WCBA赛,#genre#
-12-08WCBA常规赛🏀📡,http://81.70.10.196:35455/douyu/11531165
-19:30陕西榆林天泽🆚北京首钢园,https://suo.yt/R6oJbv0
-国🔊'咪咕评述,https://suo.yt/R6oJbv0
-19:30辽宁大连体产🆚江西赣星,https://suo.yt/R6oJbv0
-国🔊'咪咕述评,https://suo.yt/R6oJbv0
-20:00山西竹叶青酒🆚新疆天山,https://suo.yt/R6oJbv0
-国🔊'咪咕评评,https://suo.yt/R6oJbv0
+抖舞陪看,http://81.70.10.196:35455/douyu/11531165
+白嫖软件,https://sns-video-default.xhscdn.com/stream/79/110/258/01e8c02519bc71ce4f037001992e93a479_258.mp4
+免费观看,https://sns-video-default.xhscdn.com/stream/1/110/258/01e8be3073073131010370019926f1b6bf_258.mp4
+大街网源,https://sns-video-default.xhscdn.com/stream/1/110/258/01e8be4e1207f61d01037001992765d8f6_258.mp4
+互相搬助,https://sns-video-default.xhscdn.com/stream/79/110/258/01e8be57a9bbcc944f03700199278a8589_258.mp4
+能看就行,https://sns-video-default.xhscdn.com/stream/1/110/258/01e8be6e30070a32010370019927e26463_258.mp4
+分享更新,https://sns-video-default.xhscdn.com/stream/79/110/258/01e8bfe4d0bd101e4f037001992d999551_258.mp4
+爱扒随便,https://sns-video-default.xhscdn.com/stream/79/110/258/01e8c03260bd23944f037001992ec72dba_258.mp4
+不必纠结,https://sns-video-default.xhscdn.com/stream/79/110/258/01e8be58b8bd78eb4f03700199278e02a1_258.mp4
 意甲赛评,#genre#
-12-08意甲第14轮⚽📡,http://81.70.10.196:35455/douyu/11531165
-22:00比萨🆚帕尔马,https://suo.yt/R6oJbv0
-国🔊01咪咕评,https://suo.yt/R6oJbv0
-原🔊赛场原声,https://suo.yt/R6oJbv0
 12-09意甲第14轮⚽📡,http://81.70.10.196:35455/douyu/11531165
 01:00乌甸尼斯🆚热拿亚,https://suo.yt/R6oJbv0
 国🔊02咪咕评,https://suo.yt/R6oJbv0
@@ -116,93 +99,7 @@ NBA赛评,#genre#
 赛事咪咕播36,https://msj.188766.xyz/play?id=3000000020000011521&token=2056ac7a2056ac7a2056ac7a2056ac7a
 赛事咪咕播4k,https://msj.188766.xyz/play?id=3000000010000005180&token=8b65a5698b65a5698b65a5698b65a569
 赛事至臻视界,https://msj.188766.xyz/play?id=3000000010000015686&token=8b73cfb58b73cfb58b73cfb58b73cfb5
-赛事睛彩竞技,http://rihou.cc:555/tv/[mg]睛彩竞技
-赛事睛彩竞技,http://rihou.cc:555/tv/[mg]睛彩竞技|
-赛事睛彩篮球,http://rihou.cc:555/tv/[mg]睛彩篮球
-赛事睛彩篮球,http://rihou.cc:555/tv/[mg]睛彩篮球|
-赛事睛彩青少,http://rihou.cc:555/tv/[mg]睛彩青少
-赛事睛彩青少,http://rihou.cc:555/tv/[mg]睛彩青少|
-赛事睛彩广场,http://rihou.cc:555/tv/[mg]睛彩广场
-赛事睛彩广场,http://rihou.cc:555/tv/[mg]睛彩广场|
-军事国防央七,http://rihou.cc:555/tv/[mg]国防央七
-军事国防央七,http://rihou.cc:555/tv/[mg]国防央七|
-赛事咪咕播01,http://rihou.cc:555/tv/[mg]咪咕播01
-赛事咪咕播02,http://rihou.cc:555/tv/[mg]咪咕播02
-赛事咪咕播03,http://rihou.cc:555/tv/[mg]咪咕播03
-赛事咪咕播04,http://rihou.cc:555/tv/[mg]咪咕播04
-赛事咪咕播05,http://rihou.cc:555/tv/[mg]咪咕播05
-赛事咪咕播06,http://rihou.cc:555/tv/[mg]咪咕播06
-赛事咪咕播07,http://rihou.cc:555/tv/[mg]咪咕播07
-赛事咪咕播08,http://rihou.cc:555/tv/[mg]咪咕播08
-赛事咪咕播09,http://rihou.cc:555/tv/[mg]咪咕播09
-赛事咪咕播10,http://rihou.cc:555/tv/[mg]咪咕播10
-赛事咪咕播11,http://rihou.cc:555/tv/[mg]咪咕播11
-赛事咪咕播12,http://rihou.cc:555/tv/[mg]咪咕播12
-赛事咪咕播13,http://rihou.cc:555/tv/[mg]咪咕播13
-赛事咪咕播14,http://rihou.cc:555/tv/[mg]咪咕播14
-赛事咪咕播15,http://rihou.cc:555/tv/[mg]咪咕播15
-赛事咪咕播16,http://rihou.cc:555/tv/[mg]咪咕播16
-赛事咪咕播17,http://rihou.cc:555/tv/[mg]咪咕播17
-赛事咪咕播18,http://rihou.cc:555/tv/[mg]咪咕播18
-赛事咪咕播19,http://rihou.cc:555/tv/[mg]咪咕播19
-赛事咪咕播20,http://rihou.cc:555/tv/[mg]咪咕播20
-赛事咪咕播21,http://rihou.cc:555/tv/[mg]咪咕播21
-赛事咪咕播22,http://rihou.cc:555/tv/[mg]咪咕播22
-赛事咪咕播23,http://rihou.cc:555/tv/[mg]咪咕播23
-赛事咪咕播24,http://rihou.cc:555/tv/[mg]咪咕播24
-赛事咪咕播25,http://rihou.cc:555/tv/[mg]咪咕播25
-赛事咪咕播26,http://rihou.cc:555/tv/[mg]咪咕播26
-赛事咪咕播27,http://rihou.cc:555/tv/[mg]咪咕播27
-赛事咪咕播28,http://rihou.cc:555/tv/[mg]咪咕播28
-赛事咪咕播29,http://rihou.cc:555/tv/[mg]咪咕播29
-赛事咪咕播30,http://rihou.cc:555/tv/[mg]咪咕播30
-赛事咪咕播31,http://rihou.cc:555/tv/[mg]咪咕播31
-赛事咪咕播32,http://rihou.cc:555/tv/[mg]咪咕播32
-赛事咪咕播33,http://rihou.cc:555/tv/[mg]咪咕播33
-赛事咪咕播34,http://rihou.cc:555/tv/[mg]咪咕播34
-赛事咪咕播35,http://rihou.cc:555/tv/[mg]咪咕播35
-赛事咪咕播36,http://rihou.cc:555/tv/[mg]咪咕播36
-赛事咪咕播4k,http://rihou.cc:555/tv/[mg]咪咕播4k
-赛事至臻视界,http://rihou.cc:555/tv/[mg]至臻视界
 央卫咪咕,#genre#
-CCTV-01咪咕,http://rihou.cc:555/tv/[mg]CCTV-01
-CCTV-02咪咕,http://rihou.cc:555/tv/[mg]CCTV-02
-CCTV-03咪咕,http://rihou.cc:555/tv/[mg]CCTV-03
-CCTV-04咪咕,http://rihou.cc:555/tv/[mg]CCTV-04
-CCTV-05咪咕,http://rihou.cc:555/tv/[mg]CCTV-05
-CCTV-5+咪咕,http://rihou.cc:555/tv/[mg]CCTV-5p
-CCTV-06咪咕,http://rihou.cc:555/tv/[mg]CCTV-06
-CCTV-07咪咕,http://rihou.cc:555/tv/[mg]CCTV-07
-CCTV-08咪咕,http://rihou.cc:555/tv/[mg]CCTV-08
-CCTV-09咪咕,http://rihou.cc:555/tv/[mg]CCTV-09
-CCTV-10咪咕,http://rihou.cc:555/tv/[mg]CCTV-10
-CCTV-11咪咕,http://rihou.cc:555/tv/[mg]CCTV-11
-CCTV-12咪咕,http://rihou.cc:555/tv/[mg]CCTV-12
-CCTV-13咪咕,http://rihou.cc:555/tv/[mg]CCTV-13
-CCTV-14咪咕,http://rihou.cc:555/tv/[mg]CCTV-14
-CCTV-15咪咕,http://rihou.cc:555/tv/[mg]CCTV-15
-CCTV-16咪咕,http://rihou.cc:555/tv/[mg]CCTV-16
-CCTV-17咪咕,http://rihou.cc:555/tv/[mg]CCTV-17
-cct4欧洲咪咕,http://rihou.cc:555/tv/[mg]cct4欧洲
-cct4美洲咪咕,http://rihou.cc:555/tv/[mg]cct4美洲
-CGTN-西咪咕,http://rihou.cc:555/tv/[mg]CGTN-西
-CGTN-阿咪咕,http://rihou.cc:555/tv/[mg]CGTN-阿
-CGTN-法咪咕,http://rihou.cc:555/tv/[mg]CGTN-法
-北京卫视咪咕,http://rihou.cc:555/tv/[mg]北京卫视
-东方卫视咪咕,http://rihou.cc:555/tv/[mg]东方卫视
-浙江卫视咪咕,http://rihou.cc:555/tv/[mg]浙江卫视
-江苏卫视咪咕,http://rihou.cc:555/tv/[mg]江苏卫视
-湖南卫视咪咕,http://rihou.cc:555/tv/[mg]湖南卫视
-广东卫视咪咕,http://rihou.cc:555/tv/[mg]广东卫视
-深圳卫视咪咕,http://rihou.cc:555/tv/[mg]深圳卫视
-山东卫视咪咕,http://rihou.cc:555/tv/[mg]山东卫视
-河南卫视咪咕,http://rihou.cc:555/tv/[mg]河南卫视
-江西卫视咪咕,http://rihou.cc:555/tv/[mg]江西卫视
-湖北卫视咪咕,http://rihou.cc:555/tv/[mg]湖北卫视
-海南卫视咪咕,http://rihou.cc:555/tv/[mg]海南卫视
-陕西卫视咪咕,http://rihou.cc:555/tv/[mg]陕西卫视
-兵团卫视咪咕,http://rihou.cc:555/tv/[mg]兵团卫视
-黑龙江视咪咕,http://rihou.cc:555/tv/[mg]黑龙江视
 CCTV-01咪咕,http://go.bkpcp.top/mg/cctv1
 CCTV-02咪咕,http://go.bkpcp.top/mg/cctv2
 CCTV-03咪咕,http://go.bkpcp.top/mg/cctv3
@@ -331,141 +228,35 @@ CCTV-17咪咕,http://t.061899.xyz/tl/tl.php?id=cctv17
 欣赏频道,#genre#
 粤语戏曲欣赏,http://tl.061833.xyz/tl/null-15
 粤语长片欣赏,http://tl.061833.xyz/tl/null-10
-⬇️特闽新闻⬇️,video://https://live.douyin.com/933732405880
-有线新闻欣赏,http://rihou.cc:555/tv/[FY]有线新闻
-有线新闻欣赏,http://rihou.cc:555/tv/[Mt]有线新闻
-有线新闻欣赏,http://rihou.cc:555/tv/[ST]有线新闻
-无线新闻欣赏,http://rihou.cc:555/tv/[Pd]无线新闻
-无线新闻欣赏,http://rihou.cc:555/tv/[Mt]无线新闻
-无线新闻欣赏,http://rihou.cc:555/tv/[Bx]无线新闻
-Now新闻欣赏,http://rihou.cc:555/tv/[Cx]Now新闻
-Now新闻欣赏,http://rihou.cc:555/tv/[Mt]Now新闻
-中天新闻欣赏,http://rihou.cc:555/tv/[Hk]中天新闻
-中天新闻欣赏,http://rihou.cc:555/tv/[Hk]中天新聞
-中天新闻欣赏,http://rihou.cc:555/tv/[Bx]中天新闻
-中天新闻欣赏,http://rihou.cc:555/tv/[ST]中天新闻
-中天新闻欣赏,http://rihou.cc:555/tv/[SZ]中天新闻
-寰宇新闻欣赏,http://rihou.cc:555/tv/[Hk]寰宇新闻
-寰宇新闻欣赏,http://rihou.cc:555/tv/[ST]寰宇新闻
-东森新闻欣赏,http://rihou.cc:555/tv/[ST]东森新闻
-年代新闻欣赏,http://rihou.cc:555/tv/[ST]年代新闻
-非凡新闻欣赏,http://rihou.cc:555/tv/[ST]非凡新闻
-民视新闻欣赏,http://rihou.cc:555/tv/[ST]民视新闻
-中视新闻欣赏,http://rihou.cc:555/tv/[Hk]中视新闻
-中视新闻欣赏,http://rihou.cc:555/tv/[ST]中视新闻
-中旺新闻欣赏,http://rihou.cc:555/tv/[Hk]中旺新闻
-台视新闻欣赏,http://rihou.cc:555/tv/[ST]台视新闻
-闽镜新闻欣赏,http://rihou.cc:555/tv/[Hk]闽镜新闻
-tvbS新闻欣赏,http://rihou.cc:555/tv/[FY]tvbS新闻
-tvbS新闻欣赏,http://rihou.cc:555/tv/[ST]tvbS新闻
-tvbS闽南欣赏,http://rihou.cc:555/tv/[Hk]tvbs闽南
-tvbS闽南欣赏,http://rihou.cc:555/tv/[Hk]tvbS南闽
-tvbS闽南欣赏,http://rihou.cc:555/tv/[ST]tvbS闽南
-凤凰中文欣赏,http://rihou.cc:555/tv/[Pd]凤凰中文
-凤凰资讯欣赏,http://rihou.cc:555/tv/[Pd]凤凰资讯
-凤凰资讯欣赏,http://rihou.cc:555/tv/[Bx]凤凰资讯
-凤凰香港欣赏,http://rihou.cc:555/tv/[Pd]凤凰香港
-凤凰香港欣赏,http://rihou.cc:555/tv/[Bx]凤凰香港
-⬇️特闽电影⬇️,video://https://news.tvb.com/tc/live/83
-pₒₚc电影欣赏,http://rihou.cc:555/tv/[Hk]pₒₚc电影
-pₒₚc电影欣赏,http://rihou.cc:555/tv/[Bx]pₒₚc电影
-Now星影国赏,http://rihou.cc:555/tv/[Hk]Now星影
-Now星影粤赏,http://rihou.cc:555/tv/[Mt]Now星影
-Now星影粤赏,http://rihou.cc:555/tv/[Bx]Now星影
-Now爆谷国赏,http://rihou.cc:555/tv/[Hk]Now爆谷
-Now爆谷粤赏,http://rihou.cc:555/tv/[Mt]Now爆谷
-Now爆谷粤赏,http://rihou.cc:555/tv/[Bx]Now爆谷
-美亚电影欣赏,http://rihou.cc:555/tv/[Bx]美亚电影
-天映频道粤赏,http://rihou.cc:555/tv/[StI]天映频道
-天映频道国赏,http://rihou.cc:555/tv/[ST]天映频道
-天映频道闽赏,http://rihou.cc:555/tv/[Stl]天映频道
-天映经典欣赏,http://rihou.cc:555/tv/[ST]天映经典
-东森电影欣赏,http://rihou.cc:555/tv/[ST]东森电影
-龙祥电影欣赏,http://rihou.cc:555/tv/[ST]龙祥电影
-纬来电影欣赏,http://rihou.cc:555/tv/[ST]纬来电影
-好莱电影欣赏,http://rihou.cc:555/tv/[ST]好莱电影
-邵氏电影欣赏,http://rihou.cc:555/tv/[FY]邵氏电影
-邵氏武侠欣赏,http://rihou.cc:555/tv/[FY]邵氏武侠
-邵氏动作欣赏,http://rihou.cc:555/tv/[FY]邵氏动作
-邵氏喜剧欣赏,http://rihou.cc:555/tv/[FY]邵氏喜剧
-⬇️特区资讯⬇️,https://suo.yt/R6oJbv0
-Plus综合欣赏,http://rihou.cc:555/tv/[Pd]Plus综合
-Plus综合欣赏,http://rihou.cc:555/tv/[Mt]Plus综合
-Plus综合欣赏,http://rihou.cc:555/tv/[Bx]Plus综合
-有线综合欣赏,http://rihou.cc:555/tv/[Mt]有线综合
-有线综合欣赏,http://rihou.cc:555/tv/[Cx]有线综合
-有线赛讯欣赏,http://rihou.cc:555/tv/[Mt]有线赛讯
-无线翡翠欣赏,http://rihou.cc:555/tv/[Mt]无线翡翠
-无线翡翠欣赏,http://rihou.cc:555/tv/[Bx]无线翡翠
-无线华丽国赏,http://rihou.cc:555/tv/[FY]无线华丽
-无线明珠欣赏,http://rihou.cc:555/tv/[Mt]无线明珠
-无线明珠欣赏,http://rihou.cc:555/tv/[Bx]无线明珠
-无线翡剧欣赏,http://rihou.cc:555/tv/[Hk]无线翡剧
-无线明剧欣赏,http://rihou.cc:555/tv/[Hk]无线明剧
-无线星河国赏,http://rihou.cc:555/tv/[Hk]无线星河
-无线星河粤赏,http://rihou.cc:555/tv/[Pd]无线星河
-无线功夫国赏,http://rihou.cc:555/tv/[Hk]无线功夫
-无线功夫粤赏,http://rihou.cc:555/tv/[Pd]无线功夫
-无线千禧欣赏,http://rihou.cc:555/tv/[Bx]无线千禧
-无线生活欣赏,http://rihou.cc:555/tv/[Hk]无线生活
-无线赛马欣赏,http://rihou.cc:555/tv/[Bx]无线赛马
-无线奖门欣赏,http://rihou.cc:555/tv/[Hk]无线奖门
-无线金曲欣赏,http://rihou.cc:555/tv/[Hk]无线金曲
-黄金翡翠欣赏,http://rihou.cc:555/tv/[Hk]黄金翡翠
-黄金华剧欣赏,http://rihou.cc:555/tv/[Hk]黄金华剧
-Now财经欣赏,http://rihou.cc:555/tv/[Mt]Now财经
-Now直播欣赏,http://rihou.cc:555/tv/[Mt]Now直播
-Now英超壹赏,http://rihou.cc:555/tv/[XS]Now英超
-Now英超贰赏,http://rihou.cc:555/tv/[xsI]Now英超
-Now体育壹赏,http://rihou.cc:555/tv/[XS]Now体育
-Now体育欣赏,http://rihou.cc:555/tv/[Mt]Now体育
-纬来体育欣赏,http://rihou.cc:555/tv/[ST]纬来体育
-VIUTV'壹欣赏,http://rihou.cc:555/tv/[Mt]VIUTV壹
-VIUTV'贰欣赏,http://rihou.cc:555/tv/[Mt]VIUTV贰
-VIUTV'粤欣赏,http://rihou.cc:555/tv/[Mt]VIUTV粤
-VIUTV'粤欣赏,http://rihou.cc:555/tv/[Cx]VIUTV粤
-VIUTV'英欣赏,http://rihou.cc:555/tv/[Mt]VIUTV英
-RTHK-31欣赏,http://rihou.cc:555/tv/[Mt]RTHK-31
-RTHK-31欣赏,http://rihou.cc:555/tv/[Cx]RTHK-31
-RTHK-32欣赏,http://rihou.cc:555/tv/[Cx]RTHK-32
-wwe格斗欣赏,http://rihou.cc:555/tv/[FY]wwe格斗
-⬇️粤区资讯⬇️,https://suo.yt/R6oJbv0
-广东珠江欣赏,http://rihou.cc:555/tv/[Atl]广东珠江
-广东新闻欣赏,http://rihou.cc:555/tv/[Atl]广东新闻
-广东民生欣赏,http://rihou.cc:555/tv/[Atl]广东民生
-广东体育欣赏,http://rihou.cc:555/tv/[Atl]广东体育
-广东湾区欣赏,http://rihou.cc:555/tv/[Atl]广东湾区
-广东影视欣赏,http://rihou.cc:555/tv/[Atl]广东影视
-广东经济欣赏,http://rihou.cc:555/tv/[Atl]广东经济
-广东少儿欣赏,http://rihou.cc:555/tv/[Atl]广东少儿
-广东嘉佳欣赏,http://rihou.cc:555/tv/[Atl]广东嘉佳
-广东戏曲欣赏,http://rihou.cc:555/tv/[Atl]广东戏曲
-广东卫视欣赏,http://rihou.cc:555/tv/[Atl]广东卫视
-广东珠江欣赏,http://rihou.cc:555/tv/[At|]广东珠江
-广东新闻欣赏,http://rihou.cc:555/tv/[At|]广东新闻
-广东民生欣赏,http://rihou.cc:555/tv/[At|]广东民生
-广东体育欣赏,http://rihou.cc:555/tv/[At|]广东体育
-广东湾区欣赏,http://rihou.cc:555/tv/[At|]广东湾区
-广东影视欣赏,http://rihou.cc:555/tv/[At|]广东影视
-广东珠江欣赏,http://rihou.cc:555/tv/[Cx]广东珠江
-广东体育欣赏,http://rihou.cc:555/tv/[Cx]广东体育
-广东珠江欣赏,http://rihou.cc:555/tv/[AtI]广东珠江
-广东新闻欣赏,http://rihou.cc:555/tv/[AtI]广东新闻
-广东民生欣赏,http://rihou.cc:555/tv/[AtI]广东民生
-广东体育欣赏,http://rihou.cc:555/tv/[AtI]广东体育
-广东湾区欣赏,http://rihou.cc:555/tv/[AtI]广东湾区
-广东影视欣赏,http://rihou.cc:555/tv/[AtI]广东影视
-广东经济欣赏,http://rihou.cc:555/tv/[AtI]广东经济
-广东少儿欣赏,http://rihou.cc:555/tv/[AtI]广东少儿
-广东卫视欣赏,http://rihou.cc:555/tv/[AtI]广东卫视
-⬇️全运会开幕闭幕⬇️,http://81.70.10.196:35455/douyu/11531165
-🔊开幕翡翠⬇️,http://rihou.cc:555/tv/[mv]开幕翡翠
-🔊开幕咪咕⬇️,http://rihou.cc:555/tv/[mv]开幕咪咕
-🔊闭幕咪咕⬆️,http://rihou.cc:555/tv/[mv]闭幕咪咕
-⬇️万千星辉贺台庆⬇️,http://81.70.10.196:35455/douyu/11531165
-🔊翡翠台庆⬇️,http://rihou.cc:555/tv/[tv]翡翠台庆
-🔊走红地毯⬆️,http://rihou.cc:555/tv/[tv]走红地毯
 ⬇️欣赏频道⬇️,https://suo.yt/R6oJbv0
+有线新闻欣赏,http://hls.168.us.kg/u/78/master.m3u8
+有线新闻欣赏,http://hls-pull-wicketpw.speedws.com/live/hUCrfw4QYQ0jnzNzBOyknEou8NKNbPM30NZ4zzls4gD05KeGhG.flv
+无线新闻欣赏,http://hls.168.us.kg/u/83/master.m3u8
+无线新闻欣赏,rtmp://nowast.net/live/yifatv-wxxw01
+Now新闻欣赏,http://hls.168.us.kg/u/332/master.m3u8
+中天新闻欣赏,http://hls-pull-wicketpw.speedws.com/live/hktv-kjfhslkdjngnlkdkgjdlkgjrkltjggrtlmagztxwkkszxas.flv
+中天新闻欣赏,http://dungou.szius.com:8080/live/yifatv-ztxw01.flv
+tvbS闽南欣赏,http://hls-pull-wicketpw.speedws.com/live/hktv-kjfhslkdjngnlkdkgjdlkgjrkltjggrtlmagtvbskkszx.flv
+Plus综合欣赏,http://hls.168.us.kg/u/82/master.m3u8
+pₒₚc电影欣赏,http://hls-pull-wicketpw.speedws.com/live/SbH33ezfSdsOpaI2kqwSFjoils4gDAFMTOK5qG1aVgIFlFV4ZW.flv
+Now星影国赏,http://hls-pull-wicketpw.speedws.com/live/hktv-tvzvezdamow142.flv
+Now星影粤赏,http://23.237.228.133/live2/xingyingtai.m3u8
+Now爆谷国赏,http://hls-pull-wicketpw.speedws.com/live/hktv-tvzvezdamow141.flv
+Now爆谷粤赏,http://23.237.228.133/live2/baogutai.m3u8
+无线翡翠欣赏,rtmp://nowast.net/live/yifatv-jade01
+无线翡翠欣赏,http://mytv.cdn.loc.cc/o12.php?id=wxxwfct
+无线奖门欣赏,http://hls-pull-wicketpw.speedws.com/live/3UgJSu0qpO6Lo4NDZTH6fZd4REicls4gDCOyWGz4dpo1TK5hoA.flv
+无线金曲欣赏,http://hls-pull-wicketpw.speedws.com/live/ACED2KZMC1lQgbghCsizDNVhe2Y4JROw2sG4WddZsHeTls4gDw.flv
+黄金华剧欣赏,http://hls-pull-wicketpw.speedws.com/live/HZvZxcheOtbls4gDYtaTNRcYeQhgGTeXNBxInESYlFHHleooST.flv
+凤凰中文欣赏,http://hls-pull-wicketpw.speedws.com/live/tpDBWXTxdhzoUu1gnH20ubQyeRGHXkgd39g6Lls4gDyvqoOh0v.flv
+凤凰资讯欣赏,http://hls-pull-wicketpw.speedws.com/live/Nls4gDvRnnPQMW75ChBYcdDHoXNhDGasZ9toR0LypVUNSceNpy.flv
+凤凰香港欣赏,http://hls-pull-wicketpw.speedws.com/live/dVyl2y8FNl6KDX7hesuxPOQwZUFY48H0jWLIRls4gDgUTYwb5D.flv
+香港卫视欣赏,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+莲花卫视欣赏,https://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
+邵氏动作欣赏,http://38.75.136.137:98/gslb/dsdqpub/lbssdz.m3u8?auth=testpub             
+邵氏喜剧欣赏,http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub             
+邵氏电影欣赏,http://38.75.136.137:98/gslb/dsdqpub/lbssdy.m3u8?auth=testpub         
+邵氏武侠欣赏,http://38.75.136.137:98/gslb/dsdqpub/lbsswx.m3u8?auth=testpub
 pₒₚc电影频道,http://tl.061833.xyz/tl/popc
 pₒₚc电影频流,http://tl.061833.xyz/tl/popc
 Plus综合频流,http://tl.061833.xyz/tl/pluse
@@ -661,7 +452,7 @@ WWE_格斗高,http://hls-pull-wicketpw.speedws.com/live/3JDxwxlOhKS5PTDPR4f4zilI
 天书黎明16集,http://cjx.999315.xyz/yzzy/20251206/2563_dbd22ba3/index.m3u8
 天书黎明17集,http://cjx.999315.xyz/yzzy/20251207/10816_69ddb501/index.m3u8
 天书黎明18集,http://cjx.999315.xyz/yzzy/20251207/10817_dac4a67b/index.m3u8
-天书黎明19集
+天书黎明19集,https://cdn.yzzy31-play.com/20251208/8536_2c2dc474/index.m3u8
 天书黎明20集
 天书黎明21集
 天书黎明22集
@@ -702,8 +493,8 @@ WWE_格斗高,http://hls-pull-wicketpw.speedws.com/live/3JDxwxlOhKS5PTDPR4f4zilI
 大生意人26集,http://cjx.999315.xyz/yzzy/20251206/8464_9079ea52/index.m3u8
 大生意人27集,https://cdn.yzzy32-play.com/20251208/2648_eb06b9db/index.m3u8
 大生意人28集,https://cdn.yzzy32-play.com/20251208/2649_30f8f6b9/index.m3u8
-大生意人29集
-大生意人30集
+大生意人29集,https://cdn.yzzy32-play.com/20251209/2804_4ab52371/index.m3u8
+大生意人30集,https://cdn.yzzy32-play.com/20251209/2805_564645fb/index.m3u8
 大生意人31集
 大生意人32集
 大生意人33集
@@ -714,139 +505,107 @@ WWE_格斗高,http://hls-pull-wicketpw.speedws.com/live/3JDxwxlOhKS5PTDPR4f4zilI
 大生意人38集
 大生意人39集
 大生意人40集
-⬇️枭起青壤32⬇️,https://suo.yt/R6oJbv0
-枭起青壤01集,http://cjx.999315.xyz/yzzy/20251122/110_5f93f983/index.m3u8
-枭起青壤02集,http://cjx.999315.xyz/yzzy/20251122/111_698d51a1/index.m3u8
-枭起青壤03集,http://cjx.999315.xyz/yzzy/20251122/112_7f6ffaa6/index.m3u8
-枭起青壤04集,http://cjx.999315.xyz/yzzy/20251122/142_a8baa565/index.m3u8
-枭起青壤05集,http://cjx.999315.xyz/yzzy/20251123/223_115f8950/index.m3u8
-枭起青壤06集,http://cjx.999315.xyz/yzzy/20251123/7252_201d5469/index.m3u8
-枭起青壤07集,http://cjx.999315.xyz/yzzy/20251124/660_68264bdb/index.m3u8
-枭起青壤08集,http://cjx.999315.xyz/yzzy/20251124/7598_ba7e36c4/index.m3u8
-枭起青壤09集,http://cjx.999315.xyz/yzzy/20251125/814_96b9bff0/index.m3u8
-枭起青壤10集,http://cjx.999315.xyz/yzzy/20251125/9629_d3a03b46/index.m3u8
-枭起青壤11集,http://cjx.999315.xyz/yzzy/20251126/868_dd45045f/index.m3u8
-枭起青壤12集,http://cjx.999315.xyz/yzzy/20251126/9770_b180da15/index.m3u8
-枭起青壤13集,http://cjx.999315.xyz/yzzy/20251127/25145_be419cdf/index.m3u8
-枭起青壤14集,http://cjx.999315.xyz/yzzy/20251127/7889_9a093d72/index.m3u8
-枭起青壤15集,http://cjx.999315.xyz/yzzy/20251128/10043_d30cfe3d/index.m3u8
-枭起青壤16集,http://cjx.999315.xyz/yzzy/20251128/10047_eccd9f7d/index.m3u8
-枭起青壤17集,http://cjx.999315.xyz/yzzy/20251129/8066_8b519f19/index.m3u8
-枭起青壤18集,http://cjx.999315.xyz/yzzy/20251129/8071_82138b11/index.m3u8
-枭起青壤19集,http://cjx.999315.xyz/yzzy/20251130/8116_8f624279/index.m3u8
-枭起青壤20集,http://cjx.999315.xyz/yzzy/20251130/8119_2ea19e76/index.m3u8
-枭起青壤21集,http://cjx.999315.xyz/yzzy/20251201/8161_64dafb11/index.m3u8
-枭起青壤22集,http://cjx.999315.xyz/yzzy/20251201/1217_6a61d423/index.m3u8
-枭起青壤23集,http://cjx.999315.xyz/yzzy/20251202/10532_6e289439/index.m3u8
-枭起青壤24集,http://cjx.999315.xyz/yzzy/20251202/1260_f4573fc7/index.m3u8
-枭起青壤25集,http://cjx.999315.xyz/yzzy/20251203/1309_4476b929/index.m3u8
-枭起青壤26集,http://cjx.999315.xyz/yzzy/20251204/8319_3941c435/index.m3u8
-枭起青壤27集,http://cjx.999315.xyz/yzzy/20251206/2469_57bafb2c/index.m3u8
-枭起青壤28集,http://cjx.999315.xyz/yzzy/20251207/2617_75e33da9/index.m3u8
-枭起青壤29集,http://cjx.999315.xyz/yzzy/20251207/2620_8bd39eae/index.m3u8
-枭起青壤30集,http://cjx.999315.xyz/yzzy/20251207/2621_cc709032/index.m3u8
-枭起青壤31集,http://cjx.999315.xyz/yzzy/20251207/2622_06fe1c23/index.m3u8
-枭起青壤32集,http://cjx.999315.xyz/yzzy/20251207/2623_8e68c3c7/index.m3u8
-特区Mttv,#genre#
-有线新闻Mttv,http://rihou.cc:555/tv/[Mt]有线新闻
-无线新闻Mttv,http://rihou.cc:555/tv/[Mt]无线新闻
-Now新闻Mttv,http://rihou.cc:555/tv/[Mt]Now新闻
-无线翡翠Mttv,http://rihou.cc:555/tv/[Mt]无线翡翠
-无线明珠Mttv,http://rihou.cc:555/tv/[Mt]无线明珠
-有线赛讯Mttv,http://rihou.cc:555/tv/[Mt]有线赛讯
-有线综合Mttv,http://rihou.cc:555/tv/[Mt]有线综合
-Plus综合Mttv,http://rihou.cc:555/tv/[Mt]Plus综合
-now星影粤mt,http://rihou.cc:555/tv/[Mt]Now星影
-now爆谷粤mt,http://rihou.cc:555/tv/[Mt]Now爆谷
-Now财经Mttv,http://rihou.cc:555/tv/[Mt]Now财经
-Now直播Mttv,http://rihou.cc:555/tv/[Mt]Now直播
-Now体育Mttv,http://rihou.cc:555/tv/[Mt]Now体育
-VIUTV'壹Mttv,http://rihou.cc:555/tv/[Mt]VIUTV壹
-VIUTV'贰Mttv,http://rihou.cc:555/tv/[Mt]VIUTV贰
-VIUTV'粤Mttv,http://rihou.cc:555/tv/[Mt]VIUTV粤
-VIUTV'英Mttv,http://rihou.cc:555/tv/[Mt]VIUTV英
-RTHK-31Mttv,http://rihou.cc:555/tv/[Mt]RTHK-31
-特区Bxtv,#genre#
-中天新闻Bxtv,http://rihou.cc:555/tv/[Bx]中天新闻
-无线新闻Bxtv,http://rihou.cc:555/tv/[Bx]无线新闻
-Plus综合Bxtv,http://rihou.cc:555/tv/[Bx]Plus综合
-pₒₚc电影Bxtv,http://rihou.cc:555/tv/[Bx]pₒₚc电影
-Now星影粤bx,http://rihou.cc:555/tv/[Bx]Now星影
-Now爆谷粤bx,http://rihou.cc:555/tv/[Bx]Now爆谷
-美亚电影粤bx,http://rihou.cc:555/tv/[Bx]美亚电影
-凤凰资讯Bxtv,http://rihou.cc:555/tv/[Bx]凤凰资讯
-凤凰香港Bxtv,http://rihou.cc:555/tv/[Bx]凤凰香港
-无线翡翠Bxtv,http://rihou.cc:555/tv/[Bx]无线翡翠
-无线明珠Bxtv,http://rihou.cc:555/tv/[Bx]无线明珠
-无线千禧Bxtv,http://rihou.cc:555/tv/[Bx]无线千禧
-无线赛马Bxtv,http://rihou.cc:555/tv/[Bx]无线赛马
-特新Pdtv,#genre#
-Plus综合Pdtv,http://rihou.cc:555/tv/[Pd]Plus综合
-凤凰中文Pdtv,http://rihou.cc:555/tv/[Pd]凤凰中文
-凤凰资讯Pdtv,http://rihou.cc:555/tv/[Pd]凤凰资讯
-凤凰香港Pdtv,http://rihou.cc:555/tv/[Pd]凤凰香港
-有线综合Pdtv,http://rihou.cc:555/tv/[Pd]有线综合
-无线新闻Pdtv,http://rihou.cc:555/tv/[Pd]无线新闻
-无线翡翠Pdtv,http://rihou.cc:555/tv/[Pd]无线翡翠
-无线翡翠4Ktv,http://rihou.cc:555/tv/[Pd]无线翡4K
-无线明珠Pdtv,http://rihou.cc:555/tv/[Pd]无线明珠
-无线星河Pdtv,http://rihou.cc:555/tv/[Pd]无线星河
-无线功夫Pdtv,http://rihou.cc:555/tv/[Pd]无线功夫
-澳视澳门Pdtv,http://rihou.cc:555/tv/[Pd]澳视澳门
-澳视卫星Pdtv,http://rihou.cc:555/tv/[Pd]澳视卫星
-澳门体育Pdtv,http://rihou.cc:555/tv/[Pd]澳门体育
-澳门综艺Pdtv,http://rihou.cc:555/tv/[Pd]澳门综艺
-澳门莲花Pdtv,http://rihou.cc:555/tv/[Pd]澳门莲花
-央视综合Pdtv,http://rihou.cc:555/tv/[Pd]央视综合
-CHU综合Pdtv,http://rihou.cc:555/tv/[Pd]CHU综合
-CH5综合Pdtv,http://rihou.cc:555/tv/[Pd]CH5综合
-CH8综合Pdtv,http://rihou.cc:555/tv/[Pd]CH8综合
-八度空间Pdtv,http://rihou.cc:555/tv/[Pd]八度空间
-特马SXtv,#genre#
-Plus综合SXtv,http://rihou.cc:555/tv/[SX]Plus综合
-凤凰中文SXtv,http://rihou.cc:555/tv/[SX]凤凰中文
-凤凰资讯SXtv,http://rihou.cc:555/tv/[SX]凤凰资讯
-凤凰香港SXtv,http://rihou.cc:555/tv/[SX]凤凰香港
-无线新闻SXtv,http://rihou.cc:555/tv/[SX]无线新闻
-无线翡翠SXtv,http://rihou.cc:555/tv/[SX]无线翡翠
-无线明珠SXtv,http://rihou.cc:555/tv/[SX]无线明珠
-无线星河SXtv,http://rihou.cc:555/tv/[SX]无线星河
-无线千禧SXtv,http://rihou.cc:555/tv/[SX]无线千禧
-无线华丽国Sx,http://rihou.cc:555/tv/[SX]无线华丽
-美亚电影国Sx,http://rihou.cc:555/tv/[SX]美亚电影
-天映频道国Sx,http://rihou.cc:555/tv/[SX]天映频道
-天映经典粤Sx,http://rihou.cc:555/tv/[SX]天映经典
-RTHK-31SXtv,http://rihou.cc:555/tv/[SX]RTHK-31
-RTHK-32SXtv,http://rihou.cc:555/tv/[SX]RTHK-32
-VIUTV'粤SXtv,http://rihou.cc:555/tv/[SX]VIUTV粤
-VIUTV'英SXtv,http://rihou.cc:555/tv/[SX]VIUTV英
-tvbS新闻SXtv,http://rihou.cc:555/tv/[SX]tvbS新闻
-AstroaodSXtv,http://rihou.cc:555/tv/[SX]Astroaod
-AstroAecSXtv,http://rihou.cc:555/tv/[SX]AstroAec
-Astro_QJSXtv,http://rihou.cc:555/tv/[SX]Astro_QJ
-Astro爱奇sxtv,http://rihou.cc:555/tv/[SX]Astro爱奇
-Astro欢喜sxtv,http://rihou.cc:555/tv/[SX]Astro欢喜
-特闽Hktv,#genre#
-中天新闻Hktv,http://rihou.cc:555/tv/[Hk]中天新闻
-中天新闻Hktv,http://rihou.cc:555/tv/[Hk]中天新聞
-寰宇新闻Hktv,http://rihou.cc:555/tv/[Hk]寰宇新闻
-中视新闻Hktv,http://rihou.cc:555/tv/[Hk]中视新闻
-中旺新闻Hktv,http://rihou.cc:555/tv/[Hk]中旺新闻
-tvbS闽南Hktv,http://rihou.cc:555/tv/[Hk]tvbS闽南
-tvbS闽南Hktv,http://rihou.cc:555/tv/[Hk]tvbS南闽
-pₒₚc电影Hktv,http://rihou.cc:555/tv/[Hk]pₒₚc电影
-Now星影国hk,http://rihou.cc:555/tv/[Hk]Now星影
-Now爆谷国hk,http://rihou.cc:555/tv/[Hk]Now爆谷
-无线功夫国hk,http://rihou.cc:555/tv/[Hk]无线功夫
-无线星河国hk,http://rihou.cc:555/tv/[Hk]无线星河
-无线生活Hktv,http://rihou.cc:555/tv/[Hk]无线生活
-无线翡剧Hktv,http://rihou.cc:555/tv/[Hk]无线翡剧
-无线明剧Hktv,http://rihou.cc:555/tv/[Hk]无线明剧
-无线奖门Hktv,http://rihou.cc:555/tv/[Hk]无线奖门
-无线金曲Hktv,http://rihou.cc:555/tv/[Hk]无线金曲
-黄金翡翠Hktv,http://rihou.cc:555/tv/[Hk]黄金翡翠
-黄金华剧Hktv,http://rihou.cc:555/tv/[Hk]黄金华剧
-猪哥亮秀Hktv,http://rihou.cc:555/tv/[Hk]猪哥亮秀
+特区频玛,#genre#
+Plus综合频玛,https://cdn9.163189.xyz/smt1.1.php?id=j2_twn
+凤凰中文频玛,https://cdn9.163189.xyz/smt1.1.php?id=phoenixtv_hd
+凤凰资讯频玛,https://cdn9.163189.xyz/smt1.1.php?id=phoenixinfo_hd
+凤凰香港频玛,https://cdn9.163189.xyz/smt1.1.php?id=hkphoenix_twn
+无线新闻频玛,https://cdn9.163189.xyz/smt1.1.php?id=inews_twn
+无线翡翠频玛,https://cdn9.163189.xyz/smt1.1.php?id=jade_twn
+无线华丽粤玛,https://cdn9.163189.xyz/smt1.1.php?id=Wlt
+无线华丽国玛,https://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
+无线明珠频玛,https://cdn9.163189.xyz/smt1.1.php?id=pearl_twn
+无线星河频玛,https://cdn9.163189.xyz/smt1.1.php?id=Xinhe
+无线娱乐频玛,https://cdn9.163189.xyz/smt1.1.php?id=Tvbentertainment
+无线千禧频玛,https://cdn9.163189.xyz/smt1.1.php?id=Tvbclassic
+RTHK-31频玛,https://cdn9.163189.xyz/smt1.1.php?id=rhk31_twn
+RTHK-32频玛,https://cdn9.163189.xyz/smt1.1.php?id=rhk32_twn
+VIUTV粤频玛,https://cdn9.163189.xyz/smt1.1.php?id=viu1_twn
+VIUTV英频玛,https://cdn9.163189.xyz/smt1.1.php?id=viusix_twn
+美亚电影频玛,https://cdn9.163189.xyz/smt1.1.php?id=meiyamovie_twn
+天映频道闽玛,https://cdn9.163189.xyz/smt1.1.php?id=Celestial
+天映经典闽玛,https://cdn9.163189.xyz/smt1.1.php?id=Celestial2
+八度空间频玛,https://cdn9.163189.xyz/smt1.1.php?id=TV8
+Astr爱奇频玛,https://cdn9.163189.xyz/smt1.1.php?id=Qiyi
+AstrQJ国频玛,https://cdn9.163189.xyz/smt1.1.php?id=Quanjia
+Astr-Aod频玛,https://cdn9.163189.xyz/smt1.1.php?id=Aodhd
+Astr-AeC频玛,https://cdn9.163189.xyz/smt1.1.php?id=AEC
+Astr欢喜频玛,https://cdn9.163189.xyz/smt1.1.php?id=Huahee
+Plus综合频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=j2_twn
+凤凰中文频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=phoenixtv_hd
+凤凰资讯频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=phoenixinfo_hd
+凤凰香港频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=hkphoenix_twn
+无线新闻频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=inews_twn
+无线翡翠频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=jade_twn
+无线华丽粤玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Wlt
+无线华丽国玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Tvbjade
+无线明珠频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=pearl_twn
+无线星河频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Xinhe
+无线娱乐频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Tvbentertainment
+无线千禧频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Tvbclassic
+RTHK-31频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=rhk31_twn
+RTHK-32频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=rhk32_twn
+VIUTV粤频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=viu1_twn
+VIUTV英频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=viusix_twn
+美亚电影频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=meiyamovie_twn
+天映频道闽玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Celestial
+天映经典闽玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Celestial2
+八度空间频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=TV8
+Astr爱奇频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Qiyi
+AstrQJ国频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Quanjia
+Astr-Aod频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Aodhd
+Astr-AeC频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=AEC
+Astr欢喜频玛,https://cdn9.163189.xyz/smt3.1.1.php?id=Huahee
+Plus综合频玛,http://php.jdshipin.com:8880/smt.php?id=j2_twn
+凤凰中文频玛,http://php.jdshipin.com:8880/smt.php?id=phoenixtv_hd
+凤凰资讯频玛,http://php.jdshipin.com:8880/smt.php?id=phoenixinfo_hd
+凤凰香港频玛,http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn
+无线新闻频玛,http://php.jdshipin.com:8880/smt.php?id=inews_twn
+无线翡翠频玛,http://php.jdshipin.com:8880/smt.php?id=jade_twn
+无线华丽粤玛,http://php.jdshipin.com:8880/smt.php?id=Wlt
+无线华丽国玛,http://php.jdshipin.com:8880/smt.php?id=Tvbjade
+无线明珠频玛,http://php.jdshipin.com:8880/smt.php?id=pearl_twn
+无线星河频玛,http://php.jdshipin.com:8880/smt.php?id=Xinhe
+无线娱乐频玛,http://php.jdshipin.com:8880/smt.php?id=Tvbentertainment
+无线千禧频玛,http://php.jdshipin.com:8880/smt.php?id=Tvbclassic
+RTHK-31频玛,http://php.jdshipin.com:8880/smt.php?id=rhk31_twn
+RTHK-32频玛,http://php.jdshipin.com:8880/smt.php?id=rhk32_twn
+VIUTV粤频玛,http://php.jdshipin.com:8880/smt.php?id=viu1_twn
+VIUTV英频玛,http://php.jdshipin.com:8880/smt.php?id=viusix_twn
+美亚电影频玛,http://php.jdshipin.com:8880/smt.php?id=meiyamovie_twn
+天映频道闽玛,http://php.jdshipin.com:8880/smt.php?id=Celestial
+天映经典闽玛,http://php.jdshipin.com:8880/smt.php?id=Celestial2
+八度空间频玛,http://php.jdshipin.com:8880/smt.php?id=TV8
+Astr爱奇频玛,http://php.jdshipin.com:8880/smt.php?id=Qiyi
+AstrQJ国频玛,http://php.jdshipin.com:8880/smt.php?id=Quanjia
+Astr-Aod频玛,http://php.jdshipin.com:8880/smt.php?id=Aodhd
+Astr-AeC频玛,http://php.jdshipin.com:8880/smt.php?id=AEC
+Astr欢喜频玛,http://php.jdshipin.com:8880/smt.php?id=Huahee
+Plus综合频玛,https://smt.1678520.xyz/smt3.2.1.php?id=j2_twn
+凤凰中文频玛,https://smt.1678520.xyz/smt3.2.1.php?id=phoenixtv_hd
+凤凰资讯频玛,https://smt.1678520.xyz/smt3.2.1.php?id=phoenixinfo_hd
+凤凰香港频玛,https://smt.1678520.xyz/smt3.2.1.php?id=hkphoenix_twn
+无线新闻频玛,https://smt.1678520.xyz/smt3.2.1.php?id=inews_twn
+无线翡翠频玛,https://smt.1678520.xyz/smt3.2.1.php?id=jade_twn
+无线华丽粤玛,https://smt.1678520.xyz/smt3.2.1.php?id=Wlt
+无线华丽国玛,https://smt.1678520.xyz/smt3.2.1.php?id=Tvbjade
+无线明珠频玛,https://smt.1678520.xyz/smt3.2.1.php?id=pearl_twn
+无线星河频玛,https://smt.1678520.xyz/smt3.2.1.php?id=Xinhe
+无线娱乐频玛,https://smt.1678520.xyz/smt3.2.1.php?id=Tvbentertainment
+无线千禧频玛,https://smt.1678520.xyz/smt3.2.1.php?id=Tvbclassic
+RTHK-31频玛,https://smt.1678520.xyz/smt3.2.1.php?id=rhk31_twn
+RTHK-32频玛,https://smt.1678520.xyz/smt3.2.1.php?id=rhk32_twn
+VIUTV粤频玛,https://smt.1678520.xyz/smt3.2.1.php?id=viu1_twn
+VIUTV英频玛,https://smt.1678520.xyz/smt3.2.1.php?id=viusix_twn
+美亚电影频玛,https://smt.1678520.xyz/smt3.2.1.php?id=meiyamovie_twn
+天映频道闽玛,https://smt.1678520.xyz/smt3.2.1.php?id=Celestial
+天映经典闽玛,https://smt.1678520.xyz/smt3.2.1.php?id=Celestial2
+八度空间频玛,https://smt.1678520.xyz/smt3.2.1.php?id=TV8
+Astr爱奇频玛,https://smt.1678520.xyz/smt3.2.1.php?id=Qiyi
+AstrQJ国频玛,https://smt.1678520.xyz/smt3.2.1.php?id=Quanjia
+Astr-Aod频玛,https://smt.1678520.xyz/smt3.2.1.php?id=Aodhd
+Astr-AeC频玛,https://smt.1678520.xyz/smt3.2.1.php?id=AEC
+Astr欢喜频玛,https://smt.1678520.xyz/smt3.2.1.php?id=Huahee
 特闽FYtv,#genre#
 澳视澳门FYtv,http://iptv.4666888.xyz/iptv2A.php?id=41
 广东珠江FYtv,http://iptv.4666888.xyz/iptv2A.php?id=19
@@ -2746,15 +2505,15 @@ Q版-三国剧集,http://cfss.cc/cdn/hy/29465871.m3u8
 柯南剧场版集,http://81.70.10.196:35455/douyu/6484910
 欣赏音乐,#genre#
 ⬇️刘德华<今日>演唱会精彩片段⬇️,http://81.70.10.196:35455/douyu/11531165
-今日演唱会上,http://rihou.cc:555/tv/[mv]今日演上
-今日演唱会中,http://rihou.cc:555/tv/[mv]今日演中
-今日演唱会下,http://rihou.cc:555/tv/[mv]今日演下
-抖精彩片段一,http://rihou.cc:555/tv/[mv]精彩片一
-抖精彩片段二,http://rihou.cc:555/tv/[mv]精彩片二
-今天演唱会一,http://rihou.cc:555/tv/[mv]今日演一
-今天演唱会二,http://rihou.cc:555/tv/[mv]今日演二
-今天演唱会三,http://rihou.cc:555/tv/[mv]今日演三
-今天演唱会四,http://rihou.cc:555/tv/[mv]今日演四
+今日演唱会上,https://sns-video-default.xhscdn.com/stream/1/110/258/01e8d5752d2b128a010370019981d8805d_258.mp4
+今日演唱会中,https://sns-video-default.xhscdn.com/stream/79/110/258/01e8d575b81a468c4f0370019981d7590e_258.mp4
+今日演唱会下,https://sns-video-default.xhscdn.com/stream/79/110/258/01e8d576391a55d74f0370019981d9b2f3_258.mp4
+抖精彩片段一,https://sns-video-default.xhscdn.com/stream/1/110/258/01e8d55d9a38a29a01037001998179dc88_258.mp4
+抖精彩片段二,https://sns-video-default.xhscdn.com/stream/1/110/258/01e8d55f342b33eb0103700199818a670e_258.mp4
+今天演唱会一,https://sns-video-default.xhscdn.com/stream/1/110/258/01e8d56c0738b82a010370019981b0f51d_258.mp4
+今天演唱会二,https://sns-video-default.xhscdn.com/stream/79/110/258/01e8d56c6a1cc47b4f0370019981b1936a_258.mp4
+今天演唱会三,https://sns-video-default.xhscdn.com/stream/1/110/258/01e8d56cda3884c0010370019981b36f0e_258.mp4
+今天演唱会四,https://sns-video-default.xhscdn.com/stream/1/110/258/01e8d56d192b31c9010370019981b350f9_258.mp4
 ⬇️湾区升明月电影音乐晚会⬇️,https://suo.yt/5wfJpG0
 湾区电影晚会,http://jx.999315.xyz/yzzy/20250929/17368_087f472a/index.m3u8
 ⬇️欣赏粤韵音乐⬇️,http://81.70.10.196:35455/douyu/11531165
@@ -2882,6 +2641,39 @@ Q版-三国剧集,http://cfss.cc/cdn/hy/29465871.m3u8
 731-死亡列车,http://jx.999315.xyz/ffzy/20230225/16373_172efda8/index.m3u8
 731-杀人工厂,http://jx.999315.xyz/yzzy/20220701/2070_7de21992/index.m3u8
 追剧全集,#genre#
+⬇️枭起青壤32⬇️,https://suo.yt/R6oJbv0
+枭起青壤01集,http://cjx.999315.xyz/yzzy/20251122/110_5f93f983/index.m3u8
+枭起青壤02集,http://cjx.999315.xyz/yzzy/20251122/111_698d51a1/index.m3u8
+枭起青壤03集,http://cjx.999315.xyz/yzzy/20251122/112_7f6ffaa6/index.m3u8
+枭起青壤04集,http://cjx.999315.xyz/yzzy/20251122/142_a8baa565/index.m3u8
+枭起青壤05集,http://cjx.999315.xyz/yzzy/20251123/223_115f8950/index.m3u8
+枭起青壤06集,http://cjx.999315.xyz/yzzy/20251123/7252_201d5469/index.m3u8
+枭起青壤07集,http://cjx.999315.xyz/yzzy/20251124/660_68264bdb/index.m3u8
+枭起青壤08集,http://cjx.999315.xyz/yzzy/20251124/7598_ba7e36c4/index.m3u8
+枭起青壤09集,http://cjx.999315.xyz/yzzy/20251125/814_96b9bff0/index.m3u8
+枭起青壤10集,http://cjx.999315.xyz/yzzy/20251125/9629_d3a03b46/index.m3u8
+枭起青壤11集,http://cjx.999315.xyz/yzzy/20251126/868_dd45045f/index.m3u8
+枭起青壤12集,http://cjx.999315.xyz/yzzy/20251126/9770_b180da15/index.m3u8
+枭起青壤13集,http://cjx.999315.xyz/yzzy/20251127/25145_be419cdf/index.m3u8
+枭起青壤14集,http://cjx.999315.xyz/yzzy/20251127/7889_9a093d72/index.m3u8
+枭起青壤15集,http://cjx.999315.xyz/yzzy/20251128/10043_d30cfe3d/index.m3u8
+枭起青壤16集,http://cjx.999315.xyz/yzzy/20251128/10047_eccd9f7d/index.m3u8
+枭起青壤17集,http://cjx.999315.xyz/yzzy/20251129/8066_8b519f19/index.m3u8
+枭起青壤18集,http://cjx.999315.xyz/yzzy/20251129/8071_82138b11/index.m3u8
+枭起青壤19集,http://cjx.999315.xyz/yzzy/20251130/8116_8f624279/index.m3u8
+枭起青壤20集,http://cjx.999315.xyz/yzzy/20251130/8119_2ea19e76/index.m3u8
+枭起青壤21集,http://cjx.999315.xyz/yzzy/20251201/8161_64dafb11/index.m3u8
+枭起青壤22集,http://cjx.999315.xyz/yzzy/20251201/1217_6a61d423/index.m3u8
+枭起青壤23集,http://cjx.999315.xyz/yzzy/20251202/10532_6e289439/index.m3u8
+枭起青壤24集,http://cjx.999315.xyz/yzzy/20251202/1260_f4573fc7/index.m3u8
+枭起青壤25集,http://cjx.999315.xyz/yzzy/20251203/1309_4476b929/index.m3u8
+枭起青壤26集,http://cjx.999315.xyz/yzzy/20251204/8319_3941c435/index.m3u8
+枭起青壤27集,http://cjx.999315.xyz/yzzy/20251206/2469_57bafb2c/index.m3u8
+枭起青壤28集,http://cjx.999315.xyz/yzzy/20251207/2617_75e33da9/index.m3u8
+枭起青壤29集,http://cjx.999315.xyz/yzzy/20251207/2620_8bd39eae/index.m3u8
+枭起青壤30集,http://cjx.999315.xyz/yzzy/20251207/2621_cc709032/index.m3u8
+枭起青壤31集,http://cjx.999315.xyz/yzzy/20251207/2622_06fe1c23/index.m3u8
+枭起青壤32集,http://cjx.999315.xyz/yzzy/20251207/2623_8e68c3c7/index.m3u8
 ⬇️凤凰台上35⬇️,https://suo.yt/R6oJbv0
 凤凰台上01集,http://cjx.999315.xyz/yzzy/20251114/6452_2fcd5cf1/index.m3u8
 凤凰台上02集,http://cjx.999315.xyz/yzzy/20251114/6453_a160a01c/index.m3u8
