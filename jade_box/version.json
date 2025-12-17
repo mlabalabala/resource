@@ -1,9 +1,10 @@
 {
-    "desc": "1.修改历史记录界面bug\n2.视频封面显示源名\n3.首页是历史记录时自动聚焦第一个视频\n4.修改收藏bug\n5.修改api添加bug",
-    "versionCode": 23,
+    "desc": "1.修改搜索页面\n2.修改quckjs\n3.修改详情页",
+    "versionCode": 24,
     "versionName": "0.0.0",
     "downloadUrl": "https://raw.bunnyxyz.eu.org/raw.githubusercontent.com/mlabalabala/resource/main/jade_box/app.apk",
     "forceUpgrade": false
 }
+
 
 
