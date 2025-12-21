@@ -1,10 +1,7 @@
 {
-    "desc": "1.修改搜索页面\n2.修改quckjs\n3.修改详情页",
-    "versionCode": 24,
+    "desc": "1.修改详情页剧集显示点击全屏\n2.修改搜索页bug",
+    "versionCode": 25,
     "versionName": "0.0.0",
-    "downloadUrl": "https://raw.bunnyxyz.eu.org/raw.githubusercontent.com/mlabalabala/resource/main/jade_box/app.apk",
+    "downloadUrl": "https://raw.bunnyxyz.eu.org/http://raw.githubusercontent.com/mlabalabala/box/main/Release/app.apk",
     "forceUpgrade": false
 }
-
-
-
