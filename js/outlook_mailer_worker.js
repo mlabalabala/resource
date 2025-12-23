@@ -1,4 +1,7 @@
 // 关联KV命名空间OUTLOOK_MAIL_KV
+// outlook应用 callback 链接填写 [worker url]/authcb
+// 先通过 /login 授权
+// 再通过 /send 发件
 
 export default {
   
@@ -75,6 +78,8 @@ async function handleCallback(url, env) {
     { code },
     env
   );
+  
+  await saveRefreshToken(token.refresh_token, env);
 
   await saveToken(token, env);
 
@@ -260,3 +265,4 @@ function renderIndexHtml() {
   </html>
   `
   }
+
