@@ -1,8 +1,9 @@
 {
     "desc": "1.增加播放页屏显设置\n2.增加播放页底部进度条显示\n3.增加上键定位到片头，添加长按上键3倍速播放\n4.长按3s以上16倍左快退（右快进）\n5.修改搜索也BUG",
-    "versionCode": 26,
+    "versionCode": -1,
     "versionName": "0.0.0",
     "downloadUrl": "https://raw.bunnyxyz.eu.org/http://raw.githubusercontent.com/mlabalabala/box/main/Release/app.apk",
     "forceUpgrade": false
 }
+
 
