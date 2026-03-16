@@ -6,6 +6,13 @@ m=$(echo $datetime | awk -F',' '{print $2}')
 d=$(echo $datetime | awk -F',' '{print $3}')
 #echo $y-$m-$d
 daysuburl="https://node.nodefree.me/$y/$m/$y$m$d.txt"
-outfile="nodefree.txt"
 #echo $daysuburl
-curl -sk $daysuburl -o $outfile
+nodefreeendata=$(curl -sk $daysuburl)
+nodefreedata=$(echo $nodefreeendata | base64 -d) 
+
+daysuburl="https://yoyapai.com/mianfeijiedian/$y$m$d-ssr-v2rayvpn-jiedian-yoyapai.com.txt"
+#echo $daysuburl
+yoyapaidata=$(curl -sk $daysuburl)
+
+outfile="nodefree.txt"
+{ echo "$nodefreedata"; echo "$yoyapaidata"; } | base64 | tr -d '\n' > $outfile
