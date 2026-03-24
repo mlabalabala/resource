@@ -10,7 +10,7 @@ daysuburl="https://node.nodefree.me/$y/$m/$y$m$d.txt"
 nodefreeendata=$(curl -sk $daysuburl)
 nodefreedata=$(echo $nodefreeendata | base64 -d) 
 
-daysuburl="https://yoyapai.com/mianfeijiedian/$y$m$d-ssr-v2rayvpn-jiedian-yoyapai.com.txt"
+daysuburl="https://yoyapai.com/mianfeijiedian/$y$m$d-ssr-v2ray-vpn-jiedian-yoyapai.com.txt"
 #echo $daysuburl
 yoyapaidata=$(curl -sk $daysuburl)
 
