@@ -10,8 +10,15 @@ daysuburl="https://node.nodefree.me/$y/$m/$y$m$d.txt"
 nodefreeendata=$(curl -sk $daysuburl)
 nodefreedata=$(echo $nodefreeendata | base64 -d) 
 
-daysuburl="https://yoyapai.com/mianfeijiedian/$y$m$d-ssr-v2ray-vpn-jiedian-yoyapai.com.txt"
-#echo $daysuburl
+daysuburl="https://yoyapai.com/mianfeijiedian/$y$m$d-ssr-v2rayvpn-jiedian-yoyapai.com.txt"
+echo $daysuburl
+statuscode=$(curl -sI -o /dev/null -w "%{http_code}\n" $daysuburl)
+echo $statuscode
+[ "$statuscode" = "404" ] && {
+    daysuburl=$(echo $daysuburl | sed 's/v2rayvpn/v2ray-vpn/g')
+    echo $daysuburl
+}
+
 yoyapaidata=$(curl -sk $daysuburl)
 
 outfile="nodefree.txt"
