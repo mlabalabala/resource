@@ -55,7 +55,7 @@ command+=" PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/us
 command+=" TERM=\$TERM"
 command+=" LANG=C.UTF-8"
 command+=" TZ=Asia/Shanghai"
-command+=" /bin/ash --login"
+command+=" /bin/bash --login"
 com="\$@"
 if [ -z "\$1" ];then
     exec \$command
