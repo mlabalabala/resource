@@ -2,6 +2,7 @@
   "wallpaper": "../dark.jpg",
   "logo": "https://gitea.com/404ynnub/resource/raw/branch/main/lbxx.gif",
   "sites": [
+    {"key":"madouclub","name":"麻豆社","playerType":0,"type":3,"api":"./bunny/madouclub.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
     {"key":"ckzy","name":"CK资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
     {"key":"jkun","name":"JKUN资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
     {"key":"bwzy","name":"百万资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
