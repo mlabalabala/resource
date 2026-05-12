@@ -1,0 +1,76 @@
+{
+  "wallpaper": "../dark.jpg",
+  "logo": "https://gitea.com/404ynnub/resource/raw/branch/main/lbxx.gif",
+  "sites": [
+    {"key":"ckzy","name":"CK资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
+    {"key":"jkun","name":"JKUN资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
+    {"key":"bwzy","name":"百万资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
+    {"key":"souav","name":"搜AV资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
+    {"key":"r155","name":"R155资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
+    {"key":"lsb","name":"老色屄资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
+    {"key":"huangcang","name":"黄仓资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}},
+    {"key":"yutu","name":"玉兔资源","playerType":0,"type":3,"api":"./bunny/AppleCMSV10.js","timeout":30,"ext":{"box":"TVBox","danmu":false}}
+  ],
+  "parses": [  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "rules": [],
+  "ads": [
+    "mozai.4gtv.tv",
+    "pv.vipwm.cc",
+    "static-mozai.4gtv.tv",
+    "jpxm3u8.com",
+    "20251124"
+  ],
+  "lives": [],
+  "headers": [
+    {
+      "host": "hlsztemgsplive.miguvideo.com",
+      "header": {
+        "User-Agent": "bingcha/1.1 (mianfeifenxiang) "
+      }
+    }
+  ]
+}
