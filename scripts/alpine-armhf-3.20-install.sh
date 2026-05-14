@@ -55,7 +55,7 @@ command+=" PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/us
 command+=" TERM=\$TERM"
 command+=" LANG=C.UTF-8"
 command+=" TZ=Asia/Shanghai"
-command+=" /bin/ash --login"
+command+=" /bin/bash --login"
 com="\$@"
 if [ -z "\$1" ];then
     exec \$command
@@ -66,7 +66,7 @@ EOF
 termux-fix-shebang $HOME/ternux/$osname/$shname
 chmod +x $HOME/ternux/$osname/$shname
 echo 修改中科大软件源
-sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' $HOME/ternux/$osname/$folder/etc/apk/repositories
+sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' $HOME/ternux/$osname/$folder/etc/apk/repositories
 echo 修改阿里DNS
 echo -e 'nameserver 223.5.5.5\nnameserver 223.6.6.6\nnameserver 2400:3200::1\nnameserver 2400:3200:baba::1' >> $HOME/ternux/$osname/$folder/etc/resolv.conf 
 echo 更新软件源
