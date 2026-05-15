@@ -6,7 +6,7 @@ cd $(dirname $(readlink -f "$0"))
 osname='alpine'
 folder='fs'
 shname='start-'$osname'.sh'
-tarball='rootfs.tar.xz'
+tarball='rootfs.tar.gz'
 case $(uname -m) in
 arm64|aarch64) cpu=aarch64;;
 amd64|x86_64) cpu=amd64;;
@@ -24,7 +24,7 @@ proot --link2symlink tar -vzxf $HOME/storage/downloads/$tarball -C $HOME/ternux/
 #echo '解压完成 正在删除已下载的镜像'
 #rm -rf $tarball
 echo '正在优化系统设置'
-proxy_addr=127.0.0.1:1026
+proxy_addr=''
 echo "设置代理地址 $proxy_addr"
 mkdir -p $HOME/ternux/$osname/binds
 cat > $HOME/ternux/$osname/$shname <<EOF
@@ -59,7 +59,7 @@ command+=" PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/us
 command+=" TERM=\$TERM"
 command+=" LANG=C.UTF-8"
 command+=" TZ=Asia/Shanghai"
-command+=" /bin/bash --login"
+command+=" /bin/ash --login"
 com="\$@"
 if [ -z "\$1" ];then
     exec \$command
