@@ -139,3 +139,8 @@ operateRecord() {
     createRecord "$recordName" "$type" "$value" "$isProxy" && echo "Create success: $recordName"
   fi
 }
+
+#export zoneId=112233445566778899
+#export apiKey=112233445566778899
+#deleteRecord subdomain.domain.com A/AAAA/CNAME
+#operateRecord subdomain domain.com A/AAAA/CNAME value
