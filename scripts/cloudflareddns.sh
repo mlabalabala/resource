@@ -3,7 +3,7 @@
 
 # ========== 用户配置 ==========
 apiKey="${apiKey:-}"  # 若已在环境变量中设置可省略
-cacheDir="${HOME}/.cache"
+cacheDir="/tmp"
 cacheFile="${cacheDir}/cf_zone_cache.json"
 mkdir -p "$cacheDir"
 
